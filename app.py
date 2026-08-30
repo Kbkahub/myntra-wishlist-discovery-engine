@@ -163,6 +163,7 @@ def call_groq(system_prompt, user_msg, api_key):
             headers={
                 "Content-Type": "application/json",
                 "Authorization": f"Bearer {api_key}",
+                "User-Agent": "MyntraDiscoveryEngine/1.0",
             },
             method="POST",
         )

@@ -183,7 +183,6 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
     [data-testid="stToolbar"] { display: none !important; }
-    header[data-testid="stHeader"] { display: none !important; }
     #MainMenu { display: none !important; }
     footer { display: none !important; }
     .block-container { padding-top: 1.5rem; font-family: 'Inter', sans-serif; }
@@ -276,9 +275,10 @@ with st.sidebar:
     )
     st.divider()
 
-    # Navigation buttons
+    # Navigation buttons — active page highlighted in pink
     for key, label in NAV_ITEMS:
-        if st.button(label, key=f"nav_{key}", use_container_width=True):
+        is_active = st.session_state["page"] == key
+        if st.button(label, key=f"nav_{key}", use_container_width=True, type="primary" if is_active else "secondary"):
             st.session_state["page"] = key
             st.rerun()
     st.divider()

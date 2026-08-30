@@ -362,11 +362,10 @@ if st.session_state["page"] == "dashboard":
     st.markdown("<h1 style='color:#282C3F;'>Discovery Dashboard</h1>", unsafe_allow_html=True)
     st.caption("AI-powered analysis across 8 platforms + primary user survey.")
 
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3 = st.columns(3)
     col1.metric("Public Reviews", len(reviews))
     col2.metric("Survey Responses", len(survey))
     col3.metric("Opportunity Areas", len(OPPORTUNITY_AREAS))
-    col4.metric("Research Qs Covered", "10 / 10")
 
     st.subheader("Opportunity Areas — Ranked by Impact")
     for key, opp in sorted(OPPORTUNITY_AREAS.items(), key=lambda x: x[1]["impact"], reverse=True):

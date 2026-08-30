@@ -143,6 +143,9 @@ def call_groq(system_prompt, user_msg, api_key):
     import urllib.request
     import urllib.error
 
+    if not api_key or len(api_key) < 10:
+        return "__ERROR__: No valid API key. Go to Streamlit Cloud → Settings → Secrets and add: GROQ_API_KEY = \"gsk_your-key-here\""
+
     last_error = ""
     for model in GROQ_MODELS:
         body = json.dumps({
@@ -168,13 +171,18 @@ def call_groq(system_prompt, user_msg, api_key):
                 data = json.loads(resp.read().decode())
                 return data["choices"][0]["message"]["content"]
         except urllib.error.HTTPError as e:
-            last_error = f"Model {model}: HTTP {e.code}"
+            error_body = ""
+            try:
+                error_body = e.read().decode()
+            except Exception:
+                pass
+            last_error = f"Model {model}: HTTP {e.code} — {error_body[:200]}"
             continue
         except Exception as e:
             last_error = f"Model {model}: {e}"
             continue
 
-    return f"__ERROR__: All models failed. Last error: {last_error}. Check your Groq API key at console.groq.com."
+    return f"__ERROR__: {last_error}"
 
 
 # ─── Custom CSS (Myntra themed) ───
@@ -300,9 +308,27 @@ with st.sidebar:
     st.metric("Public Reviews", len(reviews))
     st.metric("Survey Responses", len(survey))
     st.metric("Platforms", len(set(r["platform"] for r in reviews)))
+    st.divider()
 
-# Silent API key from secrets only
-api_key = st.secrets.get("GROQ_API_KEY", "") if hasattr(st, "secrets") else ""
+    # Load API key from secrets
+    api_key = ""
+    try:
+        api_key = st.secrets.get("GROQ_API_KEY", "")
+    except Exception:
+        api_key = ""
+
+    if api_key:
+        st.markdown(f"🟢 **AI: Connected** (`{api_key[:8]}...`)")
+    else:
+        st.markdown("🔴 **AI: No key found**")
+        st.caption("Add GROQ_API_KEY in Settings → Secrets")
+
+# Make api_key available outside sidebar
+api_key = ""
+try:
+    api_key = st.secrets.get("GROQ_API_KEY", "")
+except Exception:
+    api_key = ""
 
 
 # ─── System prompts ───

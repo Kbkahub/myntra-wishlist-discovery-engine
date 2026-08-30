@@ -291,7 +291,7 @@ if "page" not in st.session_state:
 with st.sidebar:
     st.markdown(
         "<h2 style='margin:0;font-size:20px;'>🔍 Discovery Engine</h2>"
-        "<p style='margin:2px 0 0;font-size:12px;opacity:0.7;'>AI-powered fashion shopping behavior analysis</p>",
+        "<p style='margin:-2px 0 0;font-size:11px;opacity:0.7;line-height:1.4;max-width:160px;'>AI-powered fashion shopping behavior analysis</p>",
         unsafe_allow_html=True,
     )
     st.divider()

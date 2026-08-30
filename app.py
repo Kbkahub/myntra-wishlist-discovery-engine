@@ -187,6 +187,18 @@ st.markdown("""
     footer { display: none !important; }
     .block-container { padding-top: 1.5rem; font-family: 'Inter', sans-serif; }
 
+    /* Force sidebar open */
+    [data-testid="stSidebar"] { min-width: 300px !important; width: 300px !important; }
+    [data-testid="stSidebar"][aria-expanded="false"] {
+        min-width: 300px !important; width: 300px !important;
+        transform: none !important; display: block !important;
+    }
+    /* Make sidebar toggle arrow visible */
+    button[data-testid="stSidebarCollapseButton"],
+    [data-testid="collapsedControl"] {
+        color: #FF3F6C !important;
+    }
+
     /* Sidebar — Myntra pink */
     div[data-testid="stSidebar"] { background: #FF3F6C !important; }
     div[data-testid="stSidebar"] * { color: #FFFFFF !important; }

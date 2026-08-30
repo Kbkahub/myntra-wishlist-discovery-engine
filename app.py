@@ -172,6 +172,10 @@ st.markdown(
     """
 <style>
     .block-container { padding-top: 1.5rem; }
+        [data-testid="stToolbar"] { display: none !important; }
+    header[data-testid="stHeader"] { display: none !important; }
+    #MainMenu { display: none !important; }
+    footer { display: none !important; }
     .metric-card {
         background: #161920;
         border: 1px solid #252830;
@@ -203,7 +207,28 @@ st.markdown(
         font-weight: 600;
         margin: 2px;
     }
-    div[data-testid="stSidebar"] { background: #0D0F12; }
+        div[data-testid="stSidebar"] { background: #0D0F12; }
+    /* Radio buttons as rectangular nav items */
+    div[data-testid="stSidebar"] [role="radiogroup"] { gap: 2px; }
+    div[data-testid="stSidebar"] [role="radiogroup"] label {
+        background: transparent;
+        border-radius: 8px;
+        padding: 8px 12px !important;
+        cursor: pointer;
+        transition: background 0.15s;
+    }
+    div[data-testid="stSidebar"] [role="radiogroup"] label:hover {
+        background: #1C2029;
+    }
+    div[data-testid="stSidebar"] [role="radiogroup"] label[data-checked="true"] {
+        background: rgba(108,142,239,0.15);
+        border: 1px solid rgba(74,107,196,0.4);
+    }
+    /* Hide the radio circles */
+    div[data-testid="stSidebar"] [role="radiogroup"] input[type="radio"] { display: none; }
+    div[data-testid="stSidebar"] [role="radiogroup"] label div[data-testid="stMarkdownContainer"] {
+        font-size: 14px;
+    }
 </style>
 """,
     unsafe_allow_html=True,

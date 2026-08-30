@@ -299,7 +299,7 @@
       "perceived_buy_likelihood": "Somewhat likely — I intend to but might not",
       "wishlist_meaning": "I jst wish to hv but not tht serious ",
       "revisit_trigger": "I’m bored and opening the app",
-      "preferred_save_location": null
+      "preferred_save_location": "cart"
     },
     "barriers_ratings": {
       "unsure_size_fit": 1.0,
@@ -992,60 +992,115 @@
   {
     "id": 19,
     "demographics": {
-      "gender": null,
-      "age_group": null,
-      "situation": null,
-      "city": null
+      "gender": "Male",
+      "age_group": "23–25",
+      "situation": "Working professional",
+      "city": "Bengaluru"
     },
     "shopping_behavior": {
-      "window_shopping_buy_freq": null,
-      "general_buy_tendency": null,
-      "online_fashion_freq": null,
-      "reason_opening_app": null,
-      "buying_style": null
+      "window_shopping_buy_freq": "Often",
+      "general_buy_tendency": "Yes, if it is in my budget",
+      "online_fashion_freq": "Less than once a month",
+      "reason_opening_app": "I have something specific I need to buy, I’m looking for inspiration or outfit ideas, I want to revisit something I saved earlier",
+      "buying_style": "I mostly buy during sales or special events"
     },
     "wishlist_usage": {
-      "items_in_wishlist": null,
-      "items_added_per_week": null,
-      "revisit_frequency": null,
-      "remove_items": null,
-      "last_wishlist_purchase": null,
-      "thinking_when_adding": null,
-      "perceived_buy_likelihood": null,
+      "items_in_wishlist": "16–30",
+      "items_added_per_week": "1–3",
+      "revisit_frequency": "Rarely / I forget it’s there",
+      "remove_items": "Sometimes, when it gets too long",
+      "last_wishlist_purchase": "Never XD",
+      "thinking_when_adding": "This looks nice — let me save it so I don’t lose it, I’m comparing a few options and want to decide later, I’m saving it to show someone else and get their opinion",
+      "perceived_buy_likelihood": "Unlikely — it’s more of a ‘nice to have’ bookmark",
       "wishlist_meaning": null,
-      "revisit_trigger": null,
-      "preferred_save_location": null
+      "revisit_trigger": "I need to buy something and want to check what I’d saved",
+      "preferred_save_location": "Cart"
     },
     "barriers_ratings": {
-      "unsure_size_fit": null,
-      "too_many_items_overwhelmed": null,
-      "dont_know_styling": null,
-      "not_enough_reviews": null,
-      "forgotten_saved_items": null,
-      "impulse_save_excitement_faded": null,
-      "cant_decide_similar_items": null,
-      "not_confident_product_like_photos": null,
-      "out_of_stock": null,
-      "saving_for_future_event": null,
-      "dont_trust_returns": null,
-      "realized_dont_need": null
+      "unsure_size_fit": 3.0,
+      "too_many_items_overwhelmed": 4.0,
+      "dont_know_styling": 3.0,
+      "not_enough_reviews": 3.0,
+      "forgotten_saved_items": 5.0,
+      "impulse_save_excitement_faded": 5.0,
+      "cant_decide_similar_items": 3.0,
+      "not_confident_product_like_photos": 2.0,
+      "out_of_stock": 5.0,
+      "saving_for_future_event": 5.0,
+      "dont_trust_returns": 1.0,
+      "realized_dont_need": 5.0
     },
-    "top_3_blockers": null,
-    "top_3_decision_factors": null,
-    "social_validation_effort": null,
-    "cant_find_saved_item": null,
+    "top_3_blockers": "Out of stock / size unavailable",
+    "top_3_decision_factors": "Customer reviews (text), Customer photos (real people wearing it), Seeing how it looks styled in a complete outfit",
+    "social_validation_effort": "Yes, frequently",
+    "cant_find_saved_item": "Once or twice",
     "wishlist_change_request": null,
-    "what_made_you_buy": null,
-    "time_to_buy": null,
-    "scenario_40_items": null,
-    "scenario_unsure_top": null,
+    "what_made_you_buy": "I needed it for a specific event or occasion, I saw it somewhere which triggered me (social media / real life)",
+    "time_to_buy": "I don’t usually buy wishlisted items",
+    "scenario_40_items": "Scroll through the whole list looking for something",
+    "scenario_unsure_top": "More reviews from people with a similar body type to mine, Seeing multiple photos of real people wearing it",
     "good_purchase_story": null,
     "didnt_buy_story": null,
     "magic_feature": null,
-    "searchable_text": ""
+    "searchable_text": "How often do you end up buying something when you’re window-shopping?: Often | How often do you buy the things you like? (In general): Yes, if it is in my budget | How often do you shop for fashion/clothing online?: Less than once a month | Which of these best describes your typical reason for opening the app? (Select all that apply): I have something specific I need to buy, I’m looking for inspiration or outfit ideas, I want to revisit something I saved earlier |  When you buy fashion items online, which statement fits you best?: I mostly buy during sales or special events | Roughly how many items are currently sitting in your wishlist?: 16–30 | On average, how many items do you add to your wishlist per week?: 1–3 | How often do you go back and open your wishlist to look at saved items?: Rarely / I forget it’s there | Do you ever remove items from your wishlist?: Sometimes, when it gets too long | When is the last time you directly made a purchase from your wishlist?: Never XD | When you tap the heart / ‘Add to Wishlist’ button, what are you usually thinking? (Select your top 2): This looks nice — let me save it so I don’t lose it, I’m comparing a few options and want to decide later, I’m saving it to show someone else and get their opinion | At the moment you add an item to your wishlist, how likely do you feel you’ll actually buy it?: Unlikely — it’s more of a ‘nice to have’ bookmark | When you DO revisit your wishlist, what usually triggers it?: I need to buy something and want to check what I’d saved | Of everything listed below, which are your TOP 3 factors that MOST often stop you from buying wishlisted items? (Select 3): Out of stock / size unavailable |   When deciding whether to buy a fashion item online, which 3 factors matter most to you?  : Customer reviews (text), Customer photos (real people wearing it), Seeing how it looks styled in a complete outfit | Have you ever wanted to get someone’s opinion on a wishlisted item but found it too much effort to do so?: Yes, frequently | Have you ever been unable to find a specific item you know you saved in your wishlist?: Once or twice | Q9. When you DO end up buying something from your wishlist, what usually made you finally go through with it? (Select all that apply): I needed it for a specific event or occasion, I saw it somewhere which triggered me (social media / real life) | How soon after wishlisting an item do you typically buy it (if you do)?: I don’t usually buy wishlisted items | You open your wishlist and see 40 items you’ve saved over the past 3 months. What would you be doing?: Scroll through the whole list looking for something | You’ve been going back and forth on a top for a week. You like how it looks in photos but aren’t sure if it’ll look good on you. What would help you decide? (Select top 2): More reviews from people with a similar body type to mine, Seeing multiple photos of real people wearing it | Gender: Male | What is your age group?: 23–25 | Which best describes your current situation?: Working professional | Where do you currently live?: Bengaluru"
   },
   {
     "id": 20,
+    "demographics": {
+      "gender": "Female",
+      "age_group": "23–25",
+      "situation": "Working professional",
+      "city": "Delhi NCR"
+    },
+    "shopping_behavior": {
+      "window_shopping_buy_freq": "Often",
+      "general_buy_tendency": "I see price first",
+      "online_fashion_freq": "Once or twice a month",
+      "reason_opening_app": "I’m looking for inspiration or outfit ideas, I saw an ad or notification and wanted to check it out, I want to revisit something I saved earlier",
+      "buying_style": "I browse a lot, compare options, and take my time deciding"
+    },
+    "wishlist_usage": {
+      "items_in_wishlist": "31–50",
+      "items_added_per_week": "4–10",
+      "revisit_frequency": "Once a week",
+      "remove_items": "Rarely",
+      "last_wishlist_purchase": "Somewhere around a month back",
+      "thinking_when_adding": "I want to buy this, but not right now, This looks nice — let me save it so I don’t lose it, I want this but it’s a bit expensive for me right now, I’m saving it to show someone else and get their opinion",
+      "perceived_buy_likelihood": "Somewhat likely — I intend to but might not",
+      "wishlist_meaning": null,
+      "revisit_trigger": "I remembered something I saved",
+      "preferred_save_location": "Wishlist"
+    },
+    "barriers_ratings": {
+      "unsure_size_fit": 2.0,
+      "too_many_items_overwhelmed": 2.0,
+      "dont_know_styling": 1.0,
+      "not_enough_reviews": 3.0,
+      "forgotten_saved_items": 2.0,
+      "impulse_save_excitement_faded": 2.0,
+      "cant_decide_similar_items": 3.0,
+      "not_confident_product_like_photos": 4.0,
+      "out_of_stock": 4.0,
+      "saving_for_future_event": 4.0,
+      "dont_trust_returns": 2.0,
+      "realized_dont_need": 3.0
+    },
+    "top_3_blockers": "Can’t decide between similar items, Out of stock / size unavailable, Realized I didn't really need it",
+    "top_3_decision_factors": "Customer reviews (text), Customer photos (real people wearing it), Seeing how it looks styled in a complete outfit",
+    "social_validation_effort": "Sometimes",
+    "cant_find_saved_item": "No",
+    "wishlist_change_request": null,
+    "what_made_you_buy": "I needed it for a specific event or occasion, I randomly remembered it and decided to buy, I had been thinking about it long enough and just decided",
+    "time_to_buy": "Within 2–3 weeks",
+    "scenario_40_items": "Scroll through the whole list looking for something",
+    "scenario_unsure_top": "A virtual try-on showing how it looks on my body type, Seeing multiple photos of real people wearing it",
+    "good_purchase_story": null,
+    "didnt_buy_story": null,
+    "magic_feature": null,
+    "searchable_text": "How often do you end up buying something when you’re window-shopping?: Often | How often do you buy the things you like? (In general): I see price first | How often do you shop for fashion/clothing online?: Once or twice a month | Which of these best describes your typical reason for opening the app? (Select all that apply): I’m looking for inspiration or outfit ideas, I saw an ad or notification and wanted to check it out, I want to revisit something I saved earlier |  When you buy fashion items online, which statement fits you best?: I browse a lot, compare options, and take my time deciding | Roughly how many items are currently sitting in your wishlist?: 31–50 | On average, how many items do you add to your wishlist per week?: 4–10 | How often do you go back and open your wishlist to look at saved items?: Once a week | Do you ever remove items from your wishlist?: Rarely | When is the last time you directly made a purchase from your wishlist?: Somewhere around a month back | When you tap the heart / ‘Add to Wishlist’ button, what are you usually thinking? (Select your top 2): I want to buy this, but not right now, This looks nice — let me save it so I don’t lose it, I want this but it’s a bit expensive for me right now, I’m saving it to show someone else and get their opinion | At the moment you add an item to your wishlist, how likely do you feel you’ll actually buy it?: Somewhat likely — I intend to but might not | When you DO revisit your wishlist, what usually triggers it?: I remembered something I saved | Of everything listed below, which are your TOP 3 factors that MOST often stop you from buying wishlisted items? (Select 3): Can’t decide between similar items, Out of stock / size unavailable, Realized I didn't really need it |   When deciding whether to buy a fashion item online, which 3 factors matter most to you?  : Customer reviews (text), Customer photos (real people wearing it), Seeing how it looks styled in a complete outfit | Have you ever wanted to get someone’s opinion on a wishlisted item but found it too much effort to do so?: Sometimes | Have you ever been unable to find a specific item you know you saved in your wishlist?: No | Q9. When you DO end up buying something from your wishlist, what usually made you finally go through with it? (Select all that apply): I needed it for a specific event or occasion, I randomly remembered it and decided to buy, I had been thinking about it long enough and just decided | How soon after wishlisting an item do you typically buy it (if you do)?: Within 2–3 weeks | You open your wishlist and see 40 items you’ve saved over the past 3 months. What would you be doing?: Scroll through the whole list looking for something | You’ve been going back and forth on a top for a week. You like how it looks in photos but aren’t sure if it’ll look good on you. What would help you decide? (Select top 2): A virtual try-on showing how it looks on my body type, Seeing multiple photos of real people wearing it | Gender: Female | What is your age group?: 23–25 | Which best describes your current situation?: Working professional | Where do you currently live?: Delhi NCR"
+  },
+  {
+    "id": 21,
     "demographics": {
       "gender": "Male",
       "age_group": "23–25",
@@ -1069,7 +1124,7 @@
       "perceived_buy_likelihood": "Neutral — it could go either way",
       "wishlist_meaning": "A place to save things. ",
       "revisit_trigger": "I don’t really revisit it",
-      "preferred_save_location": null
+      "preferred_save_location": "Cart"
     },
     "barriers_ratings": {
       "unsure_size_fit": 3.0,
@@ -1100,7 +1155,7 @@
     "searchable_text": "How often do you end up buying something when you’re window-shopping?: Sometimes | How often do you buy the things you like? (In general): I see price first | How often do you shop for fashion/clothing online?: During or before an occasion | Which of these best describes your typical reason for opening the app? (Select all that apply): I have something specific I need to buy, I saw an ad or notification and wanted to check it out |  When you buy fashion items online, which statement fits you best?: I browse a lot, compare options, and take my time deciding | Roughly how many items are currently sitting in your wishlist?: 16–30 | On average, how many items do you add to your wishlist per week?: 0 (I rarely add) | How often do you go back and open your wishlist to look at saved items?: Rarely / I forget it’s there | Do you ever remove items from your wishlist?: Sometimes, when it gets too long | When is the last time you directly made a purchase from your wishlist?: Never XD | When you tap the heart / ‘Add to Wishlist’ button, what are you usually thinking? (Select your top 2): This looks nice — let me save it so I don’t lose it, I’m comparing a few options and want to decide later | At the moment you add an item to your wishlist, how likely do you feel you’ll actually buy it?: Neutral — it could go either way | In your own words, what does your wishlist mean to you? What role does it play in how you shop?: A place to save things.  | When you DO revisit your wishlist, what usually triggers it?: I don’t really revisit it | Of everything listed below, which are your TOP 3 factors that MOST often stop you from buying wishlisted items? (Select 3): Too many saved items, decision overwhelm, Forgot about saved items, Wishlist too cluttered | Have you ever wanted to get someone’s opinion on a wishlisted item but found it too much effort to do so?: Sometimes | Have you ever been unable to find a specific item you know you saved in your wishlist?: Once or twice | Q9. When you DO end up buying something from your wishlist, what usually made you finally go through with it? (Select all that apply): A notification reminded me | How soon after wishlisting an item do you typically buy it (if you do)?: After a month or more | You open your wishlist and see 40 items you’ve saved over the past 3 months. What would you be doing?: Feel overwhelmed and close it | You’ve been going back and forth on a top for a week. You like how it looks in photos but aren’t sure if it’ll look good on you. What would help you decide? (Select top 2): A very easy return/exchange guarantee | Describe the last fashion purchase you made online that you felt really good about. What made that experience work?: Shoes, very low cost, good deal | Now describe a time you really wanted to buy something but just... didn’t. What was going on?: I was bored | If the app could do one magical thing to make it easier for you to decide on items in your wishlist, what would that be?: I don't usually go back my wishlist, or create one so often | Gender: Male | What is your age group?: 23–25 | Which best describes your current situation?: Working professional | Where do you currently live?: Delhi NCR"
   },
   {
-    "id": 21,
+    "id": 22,
     "demographics": {
       "gender": "Female",
       "age_group": "18–22",
@@ -1124,7 +1179,7 @@
       "perceived_buy_likelihood": "Neutral — it could go either way",
       "wishlist_meaning": null,
       "revisit_trigger": "I don’t really revisit it",
-      "preferred_save_location": null
+      "preferred_save_location": "Cart"
     },
     "barriers_ratings": {
       "unsure_size_fit": 2.0,
@@ -1155,7 +1210,7 @@
     "searchable_text": "How often do you end up buying something when you’re window-shopping?: Sometimes | How often do you buy the things you like? (In general): I see price first | How often do you shop for fashion/clothing online?: Once or twice a month | Which of these best describes your typical reason for opening the app? (Select all that apply): I have something specific I need to buy, I saw an ad or notification and wanted to check it out |  When you buy fashion items online, which statement fits you best?: I tend to buy on impulse when something catches my eye | Roughly how many items are currently sitting in your wishlist?: 6–15 | On average, how many items do you add to your wishlist per week?: 1–3 | How often do you go back and open your wishlist to look at saved items?: Rarely / I forget it’s there | Do you ever remove items from your wishlist?: Rarely | When is the last time you directly made a purchase from your wishlist?: Somewhere around a month back | When you tap the heart / ‘Add to Wishlist’ button, what are you usually thinking? (Select your top 2): This looks nice — let me save it so I don’t lose it | At the moment you add an item to your wishlist, how likely do you feel you’ll actually buy it?: Neutral — it could go either way | When you DO revisit your wishlist, what usually triggers it?: I don’t really revisit it | Of everything listed below, which are your TOP 3 factors that MOST often stop you from buying wishlisted items? (Select 3): Not enough reviews or customer photos, Forgot about saved items, Product might not look like photos | Have you ever wanted to get someone’s opinion on a wishlisted item but found it too much effort to do so?: Sometimes | Have you ever been unable to find a specific item you know you saved in your wishlist?: Once or twice | Q9. When you DO end up buying something from your wishlist, what usually made you finally go through with it? (Select all that apply): I randomly remembered it and decided to buy, I saw it somewhere which triggered me (social media / real life), I had been thinking about it long enough and just decided | How soon after wishlisting an item do you typically buy it (if you do)?: After a month or more | You open your wishlist and see 40 items you’ve saved over the past 3 months. What would you be doing?: I wouldn’t open a 40-item wishlist in the first place | You’ve been going back and forth on a top for a week. You like how it looks in photos but aren’t sure if it’ll look good on you. What would help you decide? (Select top 2): More reviews from people with a similar body type to mine | Gender: Female | What is your age group?: 18–22 | Which best describes your current situation?: Working professional | Where do you currently live?: Delhi NCR"
   },
   {
-    "id": 22,
+    "id": 23,
     "demographics": {
       "gender": "Female",
       "age_group": "23–25",
@@ -1210,7 +1265,7 @@
     "searchable_text": "How often do you end up buying something when you’re window-shopping?: Sometimes | How often do you buy the things you like? (In general): Yes, if it is in my budget | How often do you shop for fashion/clothing online?: Less than once a month | Which of these best describes your typical reason for opening the app? (Select all that apply): I saw an ad or notification and wanted to check it out, I’m killing time / boredom browsing |  When you buy fashion items online, which statement fits you best?: I browse a lot, compare options, and take my time deciding | Roughly how many items are currently sitting in your wishlist?: 6–15 | On average, how many items do you add to your wishlist per week?: God knows how many | How often do you go back and open your wishlist to look at saved items?: Rarely / I forget it’s there | Do you ever remove items from your wishlist?: Sometimes, when it gets too long | When is the last time you directly made a purchase from your wishlist?: Earlier this year | When you tap the heart / ‘Add to Wishlist’ button, what are you usually thinking? (Select your top 2): I want to buy this, but not right now, This looks nice — let me save it so I don’t lose it | At the moment you add an item to your wishlist, how likely do you feel you’ll actually buy it?: Neutral — it could go either way | When you DO revisit your wishlist, what usually triggers it?: I need to buy something and want to check what I’d saved | Of everything listed below, which are your TOP 3 factors that MOST often stop you from buying wishlisted items? (Select 3): Too many saved items, decision overwhelm, Not enough reviews or customer photos, Impulse save, excitement faded, Out of stock / size unavailable | Have you ever wanted to get someone’s opinion on a wishlisted item but found it too much effort to do so?: No | Have you ever been unable to find a specific item you know you saved in your wishlist?: Once or twice | Q9. When you DO end up buying something from your wishlist, what usually made you finally go through with it? (Select all that apply): I randomly remembered it and decided to buy, I saw it somewhere which triggered me (social media / real life), I had been thinking about it long enough and just decided | How soon after wishlisting an item do you typically buy it (if you do)?: After a month or more | You open your wishlist and see 40 items you’ve saved over the past 3 months. What would you be doing?: Delete some items to make it manageable | You’ve been going back and forth on a top for a week. You like how it looks in photos but aren’t sure if it’ll look good on you. What would help you decide? (Select top 2): More reviews from people with a similar body type to mine, A very easy return/exchange guarantee | Gender: Female | What is your age group?: 23–25 | Which best describes your current situation?: Working professional | Where do you currently live?: Bengaluru"
   },
   {
-    "id": 23,
+    "id": 24,
     "demographics": {
       "gender": "Female",
       "age_group": "18–22",
@@ -1265,7 +1320,7 @@
     "searchable_text": "How often do you end up buying something when you’re window-shopping?: Sometimes | How often do you buy the things you like? (In general): I’m very analytical / aware / careful about my purchases | How often do you shop for fashion/clothing online?: During or before an occasion | Which of these best describes your typical reason for opening the app? (Select all that apply): I have something specific I need to buy, I’m looking for inspiration or outfit ideas, I want to revisit something I saved earlier |  When you buy fashion items online, which statement fits you best?: I browse a lot, compare options, and take my time deciding | Roughly how many items are currently sitting in your wishlist?: 6–15 | On average, how many items do you add to your wishlist per week?: 1–3 | How often do you go back and open your wishlist to look at saved items?: A few times a month | Do you ever remove items from your wishlist?: Yes, I regularly clean it up | When is the last time you directly made a purchase from your wishlist?: Somewhere around a month back | When you tap the heart / ‘Add to Wishlist’ button, what are you usually thinking? (Select your top 2): I want to buy this, but not right now, I’m comparing a few options and want to decide later, I want this but it’s a bit expensive for me right now | At the moment you add an item to your wishlist, how likely do you feel you’ll actually buy it?: Somewhat likely — I intend to but might not | In your own words, what does your wishlist mean to you? What role does it play in how you shop?: Things I might buy, but may not if I find something better. | When you DO revisit your wishlist, what usually triggers it?: I need to buy something and want to check what I’d saved | Of everything listed below, which are your TOP 3 factors that MOST often stop you from buying wishlisted items? (Select 3): Not enough reviews or customer photos, Product might not look like photos, Out of stock / size unavailable, Quality vs price uncertainty | Have you ever wanted to get someone’s opinion on a wishlisted item but found it too much effort to do so?: Sometimes | Have you ever been unable to find a specific item you know you saved in your wishlist?: Once or twice | If you could change one thing about how the wishlist works, what would it be?: Buy or wait suggestions based on prev price history , review & alternative  | Q9. When you DO end up buying something from your wishlist, what usually made you finally go through with it? (Select all that apply): I randomly remembered it and decided to buy, Other | How soon after wishlisting an item do you typically buy it (if you do)?: Within 2–3 weeks | You open your wishlist and see 40 items you’ve saved over the past 3 months. What would you be doing?: Search or filter for something specific | You’ve been going back and forth on a top for a week. You like how it looks in photos but aren’t sure if it’ll look good on you. What would help you decide? (Select top 2): A size recommendation based on my past purchases, Seeing multiple photos of real people wearing it, A very easy return/exchange guarantee, A friend’s honest opinion | Describe the last fashion purchase you made online that you felt really good about. What made that experience work?: I had been considering the product for a while and decided to buy it when I found a new option I really liked.\nI’ve always liked it for its quality, but I had never found the right shade for me.\nFinding my perfect shade made me feel happy and confident about my purchase. | Now describe a time you really wanted to buy something but just... didn’t. What was going on?: Expensive and didn't find the product that worth  | If the app could do one magical thing to make it easier for you to decide on items in your wishlist, what would that be?: Tell me if it's worth the price based on quality reviews and alternative  | Gender: Female | What is your age group?: 18–22 | Which best describes your current situation?: Student | Where do you currently live?: Tier 2 city"
   },
   {
-    "id": 24,
+    "id": 25,
     "demographics": {
       "gender": "Male",
       "age_group": "26–29",
@@ -1289,7 +1344,7 @@
       "perceived_buy_likelihood": "Neutral — it could go either way",
       "wishlist_meaning": null,
       "revisit_trigger": "I need to buy something and want to check what I’d saved",
-      "preferred_save_location": null
+      "preferred_save_location": "Cart"
     },
     "barriers_ratings": {
       "unsure_size_fit": 4.0,
@@ -1318,445 +1373,5 @@
     "didnt_buy_story": null,
     "magic_feature": null,
     "searchable_text": "How often do you end up buying something when you’re window-shopping?: Sometimes | How often do you buy the things you like? (In general): Yes, if it is in my budget | How often do you shop for fashion/clothing online?: Less than once a month | Which of these best describes your typical reason for opening the app? (Select all that apply): I have something specific I need to buy |  When you buy fashion items online, which statement fits you best?: I browse a lot, compare options, and take my time deciding | Roughly how many items are currently sitting in your wishlist?: 1–5 | On average, how many items do you add to your wishlist per week?: 0 (I rarely add) | How often do you go back and open your wishlist to look at saved items?: Rarely / I forget it’s there | Do you ever remove items from your wishlist?: Never, I didn’t even think to do that | When is the last time you directly made a purchase from your wishlist?: Earlier this year | When you tap the heart / ‘Add to Wishlist’ button, what are you usually thinking? (Select your top 2): This looks nice — let me save it so I don’t lose it | At the moment you add an item to your wishlist, how likely do you feel you’ll actually buy it?: Neutral — it could go either way | When you DO revisit your wishlist, what usually triggers it?: I need to buy something and want to check what I’d saved | Of everything listed below, which are your TOP 3 factors that MOST often stop you from buying wishlisted items? (Select 3): Don’t know how to style it, Product might not look like photos, Out of stock / size unavailable | Have you ever wanted to get someone’s opinion on a wishlisted item but found it too much effort to do so?: Sometimes | Have you ever been unable to find a specific item you know you saved in your wishlist?: No | Q9. When you DO end up buying something from your wishlist, what usually made you finally go through with it? (Select all that apply): I had been thinking about it long enough and just decided | How soon after wishlisting an item do you typically buy it (if you do)?: Within a week | You open your wishlist and see 40 items you’ve saved over the past 3 months. What would you be doing?: Scroll through the whole list looking for something | You’ve been going back and forth on a top for a week. You like how it looks in photos but aren’t sure if it’ll look good on you. What would help you decide? (Select top 2): More reviews from people with a similar body type to mine, Seeing multiple photos of real people wearing it | Gender: Male | What is your age group?: 26–29 | Which best describes your current situation?: Working professional | Where do you currently live?: Chennai"
-  },
-  {
-    "id": 25,
-    "demographics": {
-      "gender": null,
-      "age_group": null,
-      "situation": null,
-      "city": null
-    },
-    "shopping_behavior": {
-      "window_shopping_buy_freq": null,
-      "general_buy_tendency": null,
-      "online_fashion_freq": null,
-      "reason_opening_app": null,
-      "buying_style": null
-    },
-    "wishlist_usage": {
-      "items_in_wishlist": null,
-      "items_added_per_week": null,
-      "revisit_frequency": null,
-      "remove_items": null,
-      "last_wishlist_purchase": null,
-      "thinking_when_adding": null,
-      "perceived_buy_likelihood": null,
-      "wishlist_meaning": null,
-      "revisit_trigger": null,
-      "preferred_save_location": null
-    },
-    "barriers_ratings": {
-      "unsure_size_fit": null,
-      "too_many_items_overwhelmed": null,
-      "dont_know_styling": null,
-      "not_enough_reviews": null,
-      "forgotten_saved_items": null,
-      "impulse_save_excitement_faded": null,
-      "cant_decide_similar_items": null,
-      "not_confident_product_like_photos": null,
-      "out_of_stock": null,
-      "saving_for_future_event": null,
-      "dont_trust_returns": null,
-      "realized_dont_need": null
-    },
-    "top_3_blockers": null,
-    "top_3_decision_factors": null,
-    "social_validation_effort": null,
-    "cant_find_saved_item": null,
-    "wishlist_change_request": null,
-    "what_made_you_buy": null,
-    "time_to_buy": null,
-    "scenario_40_items": null,
-    "scenario_unsure_top": null,
-    "good_purchase_story": null,
-    "didnt_buy_story": null,
-    "magic_feature": null,
-    "searchable_text": ""
-  },
-  {
-    "id": 26,
-    "demographics": {
-      "gender": null,
-      "age_group": null,
-      "situation": null,
-      "city": null
-    },
-    "shopping_behavior": {
-      "window_shopping_buy_freq": null,
-      "general_buy_tendency": null,
-      "online_fashion_freq": null,
-      "reason_opening_app": null,
-      "buying_style": null
-    },
-    "wishlist_usage": {
-      "items_in_wishlist": null,
-      "items_added_per_week": null,
-      "revisit_frequency": null,
-      "remove_items": null,
-      "last_wishlist_purchase": null,
-      "thinking_when_adding": null,
-      "perceived_buy_likelihood": null,
-      "wishlist_meaning": null,
-      "revisit_trigger": null,
-      "preferred_save_location": null
-    },
-    "barriers_ratings": {
-      "unsure_size_fit": null,
-      "too_many_items_overwhelmed": null,
-      "dont_know_styling": null,
-      "not_enough_reviews": null,
-      "forgotten_saved_items": null,
-      "impulse_save_excitement_faded": null,
-      "cant_decide_similar_items": null,
-      "not_confident_product_like_photos": null,
-      "out_of_stock": null,
-      "saving_for_future_event": null,
-      "dont_trust_returns": null,
-      "realized_dont_need": null
-    },
-    "top_3_blockers": null,
-    "top_3_decision_factors": null,
-    "social_validation_effort": null,
-    "cant_find_saved_item": null,
-    "wishlist_change_request": null,
-    "what_made_you_buy": null,
-    "time_to_buy": null,
-    "scenario_40_items": null,
-    "scenario_unsure_top": null,
-    "good_purchase_story": null,
-    "didnt_buy_story": null,
-    "magic_feature": null,
-    "searchable_text": ""
-  },
-  {
-    "id": 27,
-    "demographics": {
-      "gender": null,
-      "age_group": null,
-      "situation": null,
-      "city": null
-    },
-    "shopping_behavior": {
-      "window_shopping_buy_freq": null,
-      "general_buy_tendency": null,
-      "online_fashion_freq": null,
-      "reason_opening_app": null,
-      "buying_style": null
-    },
-    "wishlist_usage": {
-      "items_in_wishlist": null,
-      "items_added_per_week": null,
-      "revisit_frequency": null,
-      "remove_items": null,
-      "last_wishlist_purchase": null,
-      "thinking_when_adding": null,
-      "perceived_buy_likelihood": null,
-      "wishlist_meaning": null,
-      "revisit_trigger": null,
-      "preferred_save_location": null
-    },
-    "barriers_ratings": {
-      "unsure_size_fit": null,
-      "too_many_items_overwhelmed": null,
-      "dont_know_styling": null,
-      "not_enough_reviews": null,
-      "forgotten_saved_items": null,
-      "impulse_save_excitement_faded": null,
-      "cant_decide_similar_items": null,
-      "not_confident_product_like_photos": null,
-      "out_of_stock": null,
-      "saving_for_future_event": null,
-      "dont_trust_returns": null,
-      "realized_dont_need": null
-    },
-    "top_3_blockers": null,
-    "top_3_decision_factors": null,
-    "social_validation_effort": null,
-    "cant_find_saved_item": null,
-    "wishlist_change_request": null,
-    "what_made_you_buy": null,
-    "time_to_buy": null,
-    "scenario_40_items": null,
-    "scenario_unsure_top": null,
-    "good_purchase_story": null,
-    "didnt_buy_story": null,
-    "magic_feature": null,
-    "searchable_text": ""
-  },
-  {
-    "id": 28,
-    "demographics": {
-      "gender": null,
-      "age_group": null,
-      "situation": null,
-      "city": null
-    },
-    "shopping_behavior": {
-      "window_shopping_buy_freq": null,
-      "general_buy_tendency": null,
-      "online_fashion_freq": null,
-      "reason_opening_app": null,
-      "buying_style": null
-    },
-    "wishlist_usage": {
-      "items_in_wishlist": null,
-      "items_added_per_week": null,
-      "revisit_frequency": null,
-      "remove_items": null,
-      "last_wishlist_purchase": null,
-      "thinking_when_adding": null,
-      "perceived_buy_likelihood": null,
-      "wishlist_meaning": null,
-      "revisit_trigger": null,
-      "preferred_save_location": null
-    },
-    "barriers_ratings": {
-      "unsure_size_fit": null,
-      "too_many_items_overwhelmed": null,
-      "dont_know_styling": null,
-      "not_enough_reviews": null,
-      "forgotten_saved_items": null,
-      "impulse_save_excitement_faded": null,
-      "cant_decide_similar_items": null,
-      "not_confident_product_like_photos": null,
-      "out_of_stock": null,
-      "saving_for_future_event": null,
-      "dont_trust_returns": null,
-      "realized_dont_need": null
-    },
-    "top_3_blockers": null,
-    "top_3_decision_factors": null,
-    "social_validation_effort": null,
-    "cant_find_saved_item": null,
-    "wishlist_change_request": null,
-    "what_made_you_buy": null,
-    "time_to_buy": null,
-    "scenario_40_items": null,
-    "scenario_unsure_top": null,
-    "good_purchase_story": null,
-    "didnt_buy_story": null,
-    "magic_feature": null,
-    "searchable_text": ""
-  },
-  {
-    "id": 29,
-    "demographics": {
-      "gender": null,
-      "age_group": null,
-      "situation": null,
-      "city": null
-    },
-    "shopping_behavior": {
-      "window_shopping_buy_freq": null,
-      "general_buy_tendency": null,
-      "online_fashion_freq": null,
-      "reason_opening_app": null,
-      "buying_style": null
-    },
-    "wishlist_usage": {
-      "items_in_wishlist": null,
-      "items_added_per_week": null,
-      "revisit_frequency": null,
-      "remove_items": null,
-      "last_wishlist_purchase": null,
-      "thinking_when_adding": null,
-      "perceived_buy_likelihood": null,
-      "wishlist_meaning": null,
-      "revisit_trigger": null,
-      "preferred_save_location": null
-    },
-    "barriers_ratings": {
-      "unsure_size_fit": null,
-      "too_many_items_overwhelmed": null,
-      "dont_know_styling": null,
-      "not_enough_reviews": null,
-      "forgotten_saved_items": null,
-      "impulse_save_excitement_faded": null,
-      "cant_decide_similar_items": null,
-      "not_confident_product_like_photos": null,
-      "out_of_stock": null,
-      "saving_for_future_event": null,
-      "dont_trust_returns": null,
-      "realized_dont_need": null
-    },
-    "top_3_blockers": null,
-    "top_3_decision_factors": null,
-    "social_validation_effort": null,
-    "cant_find_saved_item": null,
-    "wishlist_change_request": null,
-    "what_made_you_buy": null,
-    "time_to_buy": null,
-    "scenario_40_items": null,
-    "scenario_unsure_top": null,
-    "good_purchase_story": null,
-    "didnt_buy_story": null,
-    "magic_feature": null,
-    "searchable_text": ""
-  },
-  {
-    "id": 30,
-    "demographics": {
-      "gender": null,
-      "age_group": null,
-      "situation": null,
-      "city": null
-    },
-    "shopping_behavior": {
-      "window_shopping_buy_freq": null,
-      "general_buy_tendency": null,
-      "online_fashion_freq": null,
-      "reason_opening_app": null,
-      "buying_style": null
-    },
-    "wishlist_usage": {
-      "items_in_wishlist": null,
-      "items_added_per_week": null,
-      "revisit_frequency": null,
-      "remove_items": null,
-      "last_wishlist_purchase": null,
-      "thinking_when_adding": null,
-      "perceived_buy_likelihood": null,
-      "wishlist_meaning": null,
-      "revisit_trigger": null,
-      "preferred_save_location": null
-    },
-    "barriers_ratings": {
-      "unsure_size_fit": null,
-      "too_many_items_overwhelmed": null,
-      "dont_know_styling": null,
-      "not_enough_reviews": null,
-      "forgotten_saved_items": null,
-      "impulse_save_excitement_faded": null,
-      "cant_decide_similar_items": null,
-      "not_confident_product_like_photos": null,
-      "out_of_stock": null,
-      "saving_for_future_event": null,
-      "dont_trust_returns": null,
-      "realized_dont_need": null
-    },
-    "top_3_blockers": null,
-    "top_3_decision_factors": null,
-    "social_validation_effort": null,
-    "cant_find_saved_item": null,
-    "wishlist_change_request": null,
-    "what_made_you_buy": null,
-    "time_to_buy": null,
-    "scenario_40_items": null,
-    "scenario_unsure_top": null,
-    "good_purchase_story": null,
-    "didnt_buy_story": null,
-    "magic_feature": null,
-    "searchable_text": ""
-  },
-  {
-    "id": 31,
-    "demographics": {
-      "gender": null,
-      "age_group": null,
-      "situation": null,
-      "city": null
-    },
-    "shopping_behavior": {
-      "window_shopping_buy_freq": null,
-      "general_buy_tendency": null,
-      "online_fashion_freq": null,
-      "reason_opening_app": null,
-      "buying_style": null
-    },
-    "wishlist_usage": {
-      "items_in_wishlist": null,
-      "items_added_per_week": null,
-      "revisit_frequency": null,
-      "remove_items": null,
-      "last_wishlist_purchase": null,
-      "thinking_when_adding": null,
-      "perceived_buy_likelihood": null,
-      "wishlist_meaning": null,
-      "revisit_trigger": null,
-      "preferred_save_location": null
-    },
-    "barriers_ratings": {
-      "unsure_size_fit": null,
-      "too_many_items_overwhelmed": null,
-      "dont_know_styling": null,
-      "not_enough_reviews": null,
-      "forgotten_saved_items": null,
-      "impulse_save_excitement_faded": null,
-      "cant_decide_similar_items": null,
-      "not_confident_product_like_photos": null,
-      "out_of_stock": null,
-      "saving_for_future_event": null,
-      "dont_trust_returns": null,
-      "realized_dont_need": null
-    },
-    "top_3_blockers": null,
-    "top_3_decision_factors": null,
-    "social_validation_effort": null,
-    "cant_find_saved_item": null,
-    "wishlist_change_request": null,
-    "what_made_you_buy": null,
-    "time_to_buy": null,
-    "scenario_40_items": null,
-    "scenario_unsure_top": null,
-    "good_purchase_story": null,
-    "didnt_buy_story": null,
-    "magic_feature": null,
-    "searchable_text": ""
-  },
-  {
-    "id": 32,
-    "demographics": {
-      "gender": null,
-      "age_group": null,
-      "situation": null,
-      "city": null
-    },
-    "shopping_behavior": {
-      "window_shopping_buy_freq": null,
-      "general_buy_tendency": null,
-      "online_fashion_freq": null,
-      "reason_opening_app": null,
-      "buying_style": null
-    },
-    "wishlist_usage": {
-      "items_in_wishlist": null,
-      "items_added_per_week": null,
-      "revisit_frequency": null,
-      "remove_items": null,
-      "last_wishlist_purchase": null,
-      "thinking_when_adding": null,
-      "perceived_buy_likelihood": null,
-      "wishlist_meaning": null,
-      "revisit_trigger": null,
-      "preferred_save_location": null
-    },
-    "barriers_ratings": {
-      "unsure_size_fit": null,
-      "too_many_items_overwhelmed": null,
-      "dont_know_styling": null,
-      "not_enough_reviews": null,
-      "forgotten_saved_items": null,
-      "impulse_save_excitement_faded": null,
-      "cant_decide_similar_items": null,
-      "not_confident_product_like_photos": null,
-      "out_of_stock": null,
-      "saving_for_future_event": null,
-      "dont_trust_returns": null,
-      "realized_dont_need": null
-    },
-    "top_3_blockers": null,
-    "top_3_decision_factors": null,
-    "social_validation_effort": null,
-    "cant_find_saved_item": null,
-    "wishlist_change_request": null,
-    "what_made_you_buy": null,
-    "time_to_buy": null,
-    "scenario_40_items": null,
-    "scenario_unsure_top": null,
-    "good_purchase_story": null,
-    "didnt_buy_story": null,
-    "magic_feature": null,
-    "searchable_text": ""
   }
 ]

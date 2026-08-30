@@ -188,28 +188,37 @@ st.markdown(
     .block-container { padding-top: 1.5rem; font-family: 'Inter', sans-serif; }
 
     /* Sidebar */
-    div[data-testid="stSidebar"] { background: #282C3F; }
+    div[data-testid="stSidebar"] { background: #FF3F6C; }
     div[data-testid="stSidebar"] * { color: #FFFFFF !important; }
+    div[data-testid="stSidebar"] hr { border-color: rgba(255,255,255,0.2) !important; }
 
-    /* Sidebar nav: hide radio circles, rectangular highlight */
+    /* Sidebar nav: hide radio circles, bold caps, Myntra highlight */
     div[data-testid="stSidebar"] [data-testid="stRadio"] > div[role="radiogroup"] > label {
         background: transparent !important;
         border-radius: 8px !important;
-        padding: 10px 14px !important;
-        margin: 2px 0 !important;
+        padding: 12px 14px !important;
+        margin: 3px 0 !important;
         border: 1px solid transparent !important;
         transition: background 0.15s;
     }
     div[data-testid="stSidebar"] [data-testid="stRadio"] > div[role="radiogroup"] > label:hover {
-        background: rgba(255,255,255,0.08) !important;
+        background: rgba(255,255,255,0.15) !important;
     }
     div[data-testid="stSidebar"] [data-testid="stRadio"] > div[role="radiogroup"] > label[data-checked="true"],
     div[data-testid="stSidebar"] [data-testid="stRadio"] > div[role="radiogroup"] > label[aria-checked="true"] {
-        background: rgba(255,63,108,0.2) !important;
-        border: 1px solid rgba(255,63,108,0.5) !important;
+        background: rgba(255,255,255,0.25) !important;
+        border: 1px solid rgba(255,255,255,0.5) !important;
+        box-shadow: 0 0 8px rgba(255,255,255,0.15);
     }
     div[data-testid="stSidebar"] [data-testid="stRadio"] > div[role="radiogroup"] > label > div:first-child {
         display: none !important;
+    }
+    /* Bold + Uppercase nav text */
+    div[data-testid="stSidebar"] [data-testid="stRadio"] > div[role="radiogroup"] > label p {
+        font-weight: 700 !important;
+        text-transform: uppercase !important;
+        font-size: 13px !important;
+        letter-spacing: 0.04em !important;
     }
 
     /* Metric cards */

@@ -277,12 +277,11 @@ st.markdown("""
 
 # ─── Sidebar ───
 NAV_ITEMS = [
-    ("dashboard", "📊 DASHBOARD"),
-    ("public_reviews", "💬 ASK INSIGHTS FROM PUBLIC REVIEWS"),
-    ("user_survey", "🎯 ASK INSIGHTS FROM USER SURVEY"),
-    ("explorer", "📑 EVIDENCE EXPLORER"),
-    ("rq_mapping", "🗺️ RQ MAPPING"),
-    ("comparison", "⚖️ COMPARISON MATRIX"),
+    ("dashboard", "DASHBOARD"),
+    ("public_reviews", "ASK INSIGHTS FROM PUBLIC REVIEWS"),
+    ("user_survey", "ASK INSIGHTS FROM USER SURVEY"),
+    ("explorer", "REVIEW EXPLORER"),
+    ("comparison", "COMPARISON MATRIX"),
 ]
 
 if "page" not in st.session_state:
@@ -337,25 +336,22 @@ REVIEW_SYSTEM = (
     "You are a senior user researcher analyzing Myntra (India's top fashion e-commerce) "
     "wishlist-to-purchase conversion. You're given retrieved user reviews as evidence. "
     "Answer the user's question grounded ONLY in the provided reviews. "
-    "Structure your answer as:\n"
-    "1. **Direct Answer** (2-3 sentences)\n"
-    "2. **Key Themes** (3-5 prominent patterns with evidence)\n"
-    "3. **User Segments Affected**\n"
-    "4. **Opportunity for Intervention** (no monetary incentives)\n"
-    "5. **Evidence Strength**\n\n"
-    "Quote specific reviews. Be specific, not generic."
+    "Structure your answer as follows. Do NOT number the sections.\n\n"
+    "Start with a direct 2-3 sentence answer to the question — no heading, no label, just the answer.\n\n"
+    "Then a section headed **Key Themes** listing 3-5 prominent patterns with brief evidence from the reviews.\n\n"
+    "Then a section headed **User Segments Affected** listing which types of users are most impacted.\n\n"
+    "Quote specific reviews as evidence. Be specific, not generic."
 )
 
 SURVEY_SYSTEM = (
     "You are a senior user researcher analyzing a primary user survey about "
     "Myntra wishlist behavior. Survey has quantitative (Likert 1-5) and qualitative responses. "
-    "Answer grounded ONLY in the provided survey data. Structure:\n"
-    "1. **Key Finding** (2-3 sentences)\n"
-    "2. **Supporting Data** (reference specific responses, quote verbatim)\n"
-    "3. **Demographic Patterns** (differences by gender, age, city)\n"
-    "4. **Quantitative Highlights** (barrier ratings: 1=no problem, 5=major problem)\n"
-    "5. **Implications** (product decisions, no monetary incentives)\n\n"
-    "Reference respondent demographics when quoting. Be specific."
+    "Answer grounded ONLY in the provided survey data. "
+    "Structure your answer as follows. Do NOT number the sections.\n\n"
+    "Start with a direct 2-3 sentence answer — no heading, no label, just the finding.\n\n"
+    "Then a section headed **Supporting Data** referencing specific responses, quoting verbatim where useful.\n\n"
+    "Then a section headed **Demographic Patterns** noting any differences by gender, age, city.\n\n"
+    "Be specific. Reference respondent demographics when quoting."
 )
 
 
@@ -593,8 +589,8 @@ elif st.session_state["page"] == "user_survey":
 #  EVIDENCE EXPLORER
 # ═══════════════════════════════════════
 elif st.session_state["page"] == "explorer":
-    st.markdown("<h1 style='color:#282C3F;'>Evidence Explorer</h1>", unsafe_allow_html=True)
-    st.caption("Browse and filter the review corpus.")
+    st.markdown("<h1 style='color:#282C3F;'>Review Explorer</h1>", unsafe_allow_html=True)
+    st.caption("Browse and filter the review corpus by platform, theme, sentiment, and user segment.")
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
@@ -639,44 +635,13 @@ elif st.session_state["page"] == "explorer":
 # ═══════════════════════════════════════
 #  RQ MAPPING
 # ═══════════════════════════════════════
-elif st.session_state["page"] == "rq_mapping":
-    st.markdown("<h1 style='color:#282C3F;'>Research Question ↔ Evidence Mapping</h1>", unsafe_allow_html=True)
-    for rq_id, rq_text in RESEARCH_QUESTIONS:
-        with st.expander(f"**{rq_id}**: {rq_text}"):
-            themes = RQ_TO_THEMES.get(rq_id, [])
-            st.markdown("**Related Opportunity Areas:**")
-            for t in themes:
-                opp = OPPORTUNITY_AREAS[t]
-                count = sum(1 for r in reviews if t in r["themes"])
-                st.markdown(f"- {opp['name']} — Impact: `{opp['impact']}/10` · {count} reviews")
-            relevant = [r for r in reviews if any(t in r["themes"] for t in themes)]
-            st.markdown(f"**Sample Evidence** ({len(relevant)} total)")
-            for r in relevant[:5]:
-                st.markdown(f"> *\"{r['text']}\"*\n>\n> — {r['platform']}, {r.get('user_segment','')}")
-
 
 # ═══════════════════════════════════════
 #  COMPARISON MATRIX
 # ═══════════════════════════════════════
 elif st.session_state["page"] == "comparison":
-    st.markdown("<h1 style='color:#282C3F;'>Opportunity Comparison Matrix</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color:#282C3F;'>Impact vs Evidence Volume</h1>", unsafe_allow_html=True)
 
-    rows = []
-    for key, opp in OPPORTUNITY_AREAS.items():
-        count = sum(1 for r in reviews if key in r["themes"])
-        sents = Counter(r["sentiment"] for r in reviews if key in r["themes"])
-        rows.append({
-            "Opportunity Area": opp["name"],
-            "Impact (0-10)": opp["impact"],
-            "Evidence": count,
-            "Platforms": len(set(r["platform"] for r in reviews if key in r["themes"])),
-            "RQs": len([rid for rid, th in RQ_TO_THEMES.items() if key in th]),
-            "% Negative": round(sents.get("negative", 0) / max(count, 1) * 100),
-        })
-    rows.sort(key=lambda x: x["Impact (0-10)"], reverse=True)
-    st.dataframe(rows, use_container_width=True, hide_index=True)
-
-    st.subheader("Impact vs Evidence Volume")
     try:
         import altair as alt
         import pandas as pd
@@ -693,18 +658,4 @@ elif st.session_state["page"] == "comparison":
         text = alt.Chart(df).mark_text(dy=-15, fontSize=11).encode(x="evidence:Q", y="impact:Q", text="name:N")
         st.altair_chart(chart + text, use_container_width=True)
     except ImportError:
-        pass
-
-    st.subheader("Synthesis for Part 2")
-    st.success(
-        "**Top 3 non-monetary intervention opportunities:**\n\n"
-        "1. **Size & Fit Uncertainty** (9.2) — Largest barrier across reviews AND survey. "
-        "Inconsistent sizing, no virtual try-on, vague fit descriptions.\n\n"
-        "2. **Wishlist Clutter & Decision Fatigue** (8.1) — No filters, categories, or comparison tools. "
-        "Wishlists become unmanageable dumping grounds.\n\n"
-        "3. **Price Watching & Sale Waiting** (7.8) — Users use wishlists as price trackers. "
-        "Solving the information gap is valid without offering discounts.\n\n"
-        "**The discovered user problem**: The platform fails to resolve uncertainties between "
-        "'I like this' and 'I'm buying this' — and the wishlist compounds it by becoming an "
-        "unmanageable backlog that erodes purchase intent over time."
-    )
+        st.info("Chart requires altair library.")

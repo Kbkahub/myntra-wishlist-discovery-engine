@@ -194,6 +194,7 @@ st.markdown("""
     [data-testid="stToolbar"] { display: none !important; }
     #MainMenu { display: none !important; }
     footer { display: none !important; }
+    button[data-testid="stSidebarCollapseButton"] { display: none !important; }
     .block-container { padding-top: 1.5rem; font-family: 'Inter', sans-serif; }
 
     /* Force sidebar open */
@@ -290,7 +291,7 @@ if "page" not in st.session_state:
 with st.sidebar:
     st.markdown(
         "<h2 style='margin:0;font-size:20px;'>🔍 Discovery Engine</h2>"
-        "<p style='margin:2px 0 0;font-size:12px;opacity:0.7;'>Myntra Wishlist → Purchase</p>",
+        "<p style='margin:2px 0 0;font-size:12px;opacity:0.7;'>AI-powered fashion shopping behavior analysis</p>",
         unsafe_allow_html=True,
     )
     st.divider()

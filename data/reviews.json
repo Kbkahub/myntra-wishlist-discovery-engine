@@ -1,0 +1,1821 @@
+[
+  {
+    "id": 1,
+    "text": "Ordered a kurta in size M but it fits like an XL. Size chart is completely misleading. Checked reviews after and everyone says the same thing. Why doesn't Myntra standardize sizes across brands?",
+    "platform": "Play Store",
+    "themes": [
+      "size_fit",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2025-11-14",
+    "user_segment": "fit-anxious buyer"
+  },
+  {
+    "id": 2,
+    "text": "My wishlist has 200+ items. I open it and just scroll endlessly. Half the stuff is out of stock. Give us filters please \u2014 by price, size availability, brand. Basic feature missing.",
+    "platform": "Play Store",
+    "themes": [
+      "wishlist_ux"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-01-08",
+    "user_segment": "power browser"
+  },
+  {
+    "id": 3,
+    "text": "Added a jacket to wishlist 2 months ago at 2400. During EORS it dropped to 1100. Bought it immediately. I basically use wishlist as a price watch list.",
+    "platform": "Reddit",
+    "themes": [
+      "price_timing"
+    ],
+    "sentiment": "positive",
+    "rating": null,
+    "date": "2025-12-20",
+    "user_segment": "deal hunter"
+  },
+  {
+    "id": 4,
+    "text": "Returned shoes because wrong size sent. They failed quality check saying shoes were worn. I literally never opened the inner box. Lost 3200 rupees. Never buying expensive items on Myntra again.",
+    "platform": "Trustpilot",
+    "themes": [
+      "return_anxiety",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-03-15",
+    "user_segment": "burned returner"
+  },
+  {
+    "id": 5,
+    "text": "I always check YouTube haul videos before buying anything from Myntra. The product photos make everything look amazing but real life is very different. Need to see how fabric falls on a real person.",
+    "platform": "Reddit",
+    "themes": [
+      "social_validation",
+      "trust_authenticity"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2025-10-22",
+    "user_segment": "research-heavy buyer"
+  },
+  {
+    "id": 6,
+    "text": "Saved 15 lehengas for my sister's wedding. Wedding is in March, saved them in November. Will narrow down to 2-3 closer to date. Wishlist is my mood board basically.",
+    "platform": "Reddit",
+    "themes": [
+      "occasion_mismatch",
+      "wishlist_ux"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2025-11-30",
+    "user_segment": "occasion shopper"
+  },
+  {
+    "id": 7,
+    "text": "Why can't I compare two similar products side by side? I have 4 white sneakers in my wishlist and I keep switching between tabs to check reviews, price, rating. Amazon has this feature.",
+    "platform": "App Store",
+    "themes": [
+      "comparison_gap",
+      "wishlist_ux"
+    ],
+    "sentiment": "negative",
+    "rating": 3,
+    "date": "2026-02-11",
+    "user_segment": "comparison shopper"
+  },
+  {
+    "id": 8,
+    "text": "Customer uploaded photos look NOTHING like the product listing. The dress I received was a completely different shade of blue. How can I trust any product photo now?",
+    "platform": "Trustpilot",
+    "themes": [
+      "trust_authenticity",
+      "social_validation"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-04-02",
+    "user_segment": "fit-anxious buyer"
+  },
+  {
+    "id": 9,
+    "text": "I add things to wishlist when I'm bored browsing at night. No real intention to buy most of them. It's like window shopping but digital. Maybe 1 in 20 items I actually purchase.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux",
+      "occasion_mismatch"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2025-09-18",
+    "user_segment": "casual browser"
+  },
+  {
+    "id": 10,
+    "text": "Size S in HRX fits perfectly but Size S in Roadster is too tight. Every brand has different sizing. I now only buy brands where I know my size from past orders.",
+    "platform": "Play Store",
+    "themes": [
+      "size_fit"
+    ],
+    "sentiment": "mixed",
+    "rating": 3,
+    "date": "2026-01-25",
+    "user_segment": "brand-loyal buyer"
+  },
+  {
+    "id": 11,
+    "text": "Myntra wishlist is basically where products go to die. I had 80 items, cleaned it up to 30, still haven't bought any of them. The problem is I can't decide which one to actually get.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux",
+      "comparison_gap"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-02-14",
+    "user_segment": "decision-paralyzed"
+  },
+  {
+    "id": 12,
+    "text": "Great app for browsing but I never buy without checking the same product on Ajio and Flipkart first. Price difference can be 200-500 rupees for the exact same item.",
+    "platform": "Play Store",
+    "themes": [
+      "price_timing",
+      "comparison_gap"
+    ],
+    "sentiment": "mixed",
+    "rating": 4,
+    "date": "2025-12-03",
+    "user_segment": "price-sensitive browser"
+  },
+  {
+    "id": 13,
+    "text": "Tried to return a dress because it didn't fit. Myntra pickup guy came 4 days late, then said quality check failed because tag was removed. I only tried it on! This makes me scared to order anything I'm not 100% sure about size.",
+    "platform": "PissedConsumer",
+    "themes": [
+      "return_anxiety",
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-05-10",
+    "user_segment": "burned returner"
+  },
+  {
+    "id": 14,
+    "text": "I wish Myntra had a virtual try-on feature. ASOS has something like that. Would help so much with deciding if a top would look good on me before buying.",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit",
+      "social_validation"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-01-07",
+    "user_segment": "tech-savvy shopper"
+  },
+  {
+    "id": 15,
+    "text": "Saved items in wishlist for Diwali shopping. By the time Diwali came, 60% were out of stock. What's the point of wishlisting if the product disappears?",
+    "platform": "Play Store",
+    "themes": [
+      "occasion_mismatch",
+      "wishlist_ux"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2025-10-28",
+    "user_segment": "occasion shopper"
+  },
+  {
+    "id": 16,
+    "text": "Bill says XXL but the actual t-shirt neck tag says L. Exchanged it. Got the same wrong size again. Two weeks wasted. Myntra has zero quality control.",
+    "platform": "Trustpilot",
+    "themes": [
+      "trust_authenticity",
+      "size_fit",
+      "return_anxiety"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-07-15",
+    "user_segment": "burned returner"
+  },
+  {
+    "id": 17,
+    "text": "I send wishlist screenshots to my friends on WhatsApp before buying. Need their opinion on whether a dress will suit me. Takes 2-3 days of back and forth. If there was a share and poll feature inside Myntra it would be amazing.",
+    "platform": "Reddit",
+    "themes": [
+      "social_validation",
+      "comparison_gap"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2025-11-05",
+    "user_segment": "social shopper"
+  },
+  {
+    "id": 18,
+    "text": "Using PriceHistory app to track Myntra prices. The jacket I want has been between 1800-4200 in the last 6 months. Will buy when it hits below 2000. Why doesn't Myntra just show price history?",
+    "platform": "Reddit",
+    "themes": [
+      "price_timing"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-03-22",
+    "user_segment": "deal hunter"
+  },
+  {
+    "id": 19,
+    "text": "Myntra size chart said 32 waist for M. Ordered M. Actual waist measurement of the jeans was 34 inches. How is this acceptable? Now I have jeans that don't fit and I have to deal with returns.",
+    "platform": "Play Store",
+    "themes": [
+      "size_fit",
+      "return_anxiety"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-04-18",
+    "user_segment": "fit-anxious buyer"
+  },
+  {
+    "id": 20,
+    "text": "The wishlist notification saying 'items in your wishlist are selling fast' is so annoying and feels manipulative. I know you want me to buy but this pressure tactic makes me NOT want to buy.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-02-28",
+    "user_segment": "skeptical buyer"
+  },
+  {
+    "id": 21,
+    "text": "I'm a size 16 and most brands on Myntra don't even go up to my size. I wishlist items hoping they'll add my size but they never do. Plus size options are terrible.",
+    "platform": "App Store",
+    "themes": [
+      "size_fit",
+      "occasion_mismatch"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2025-12-12",
+    "user_segment": "underserved segment"
+  },
+  {
+    "id": 22,
+    "text": "Bought 3 tops from my wishlist during sale. 2 didn't fit. Returned both. Got refund for 1 but not the other. Customer care is useless. This is why I hesitate buying from wishlist now.",
+    "platform": "PissedConsumer",
+    "themes": [
+      "return_anxiety",
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-06-01",
+    "user_segment": "burned returner"
+  },
+  {
+    "id": 23,
+    "text": "Just watched a Myntra haul on YouTube and the reviewer said the fabric of that floral dress is super thin and see-through. Product description says nothing about this. Removed it from my wishlist immediately.",
+    "platform": "YouTube",
+    "themes": [
+      "social_validation",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-01-15",
+    "user_segment": "research-heavy buyer"
+  },
+  {
+    "id": 24,
+    "text": "Anyone else use Myntra wishlist as a bookmark tool? I save stuff I like the design of for outfit inspiration, not necessarily to buy. Like a Pinterest board but for fashion.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux",
+      "occasion_mismatch"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2025-08-20",
+    "user_segment": "casual browser"
+  },
+  {
+    "id": 25,
+    "text": "Ordered UK8 Nike shoes. Received UK7. Tried to exchange \u2014 my size out of stock. Tried to return \u2014 failed quality check because box was opened. Obviously I opened it to check the size! Worst experience ever.",
+    "platform": "App Store",
+    "themes": [
+      "size_fit",
+      "return_anxiety",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2025-11-02",
+    "user_segment": "burned returner"
+  },
+  {
+    "id": 26,
+    "text": "I keep 3 similar kurtis in my wishlist for weeks trying to decide which one. Read all reviews, check all photos. Still can't decide. If only there was a way to see them side by side with pros and cons.",
+    "platform": "Reddit",
+    "themes": [
+      "comparison_gap",
+      "wishlist_ux"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-03-08",
+    "user_segment": "decision-paralyzed"
+  },
+  {
+    "id": 27,
+    "text": "Fast delivery, good packaging. But I only buy things during mega sales. My wishlist is basically my shopping list for the next sale event. Add throughout the year, buy during EORS or Big Fashion Festival.",
+    "platform": "Play Store",
+    "themes": [
+      "price_timing",
+      "occasion_mismatch"
+    ],
+    "sentiment": "positive",
+    "rating": 4,
+    "date": "2026-05-20",
+    "user_segment": "deal hunter"
+  },
+  {
+    "id": 28,
+    "text": "Do people actually trust Myntra reviews? So many 5 star reviews with generic text like 'nice product' and 'good quality'. I need real detailed reviews with photos to make a buying decision.",
+    "platform": "Reddit",
+    "themes": [
+      "trust_authenticity",
+      "social_validation"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-04-05",
+    "user_segment": "skeptical buyer"
+  },
+  {
+    "id": 29,
+    "text": "My mom ordered a saree from Myntra based on my recommendation. Wrong color delivered. She doesn't know how to handle returns online. I had to spend 2 hours on customer care. Older users are completely lost with this process.",
+    "platform": "Reddit",
+    "themes": [
+      "return_anxiety",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-01-30",
+    "user_segment": "family purchaser"
+  },
+  {
+    "id": 30,
+    "text": "Wishlist should let me organize by occasion \u2014 'office wear', 'wedding', 'casual'. Right now everything is dumped in one list and I lose track of what I saved for what purpose.",
+    "platform": "App Store",
+    "themes": [
+      "wishlist_ux",
+      "occasion_mismatch"
+    ],
+    "sentiment": "negative",
+    "rating": 3,
+    "date": "2026-02-22",
+    "user_segment": "organized shopper"
+  },
+  {
+    "id": 31,
+    "text": "The size recommendation feature says M but the reviews say order L. Who do I trust? Ended up not buying because I was too confused.",
+    "platform": "Play Store",
+    "themes": [
+      "size_fit",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-03-12",
+    "user_segment": "fit-anxious buyer"
+  },
+  {
+    "id": 32,
+    "text": "I spend more time wishlisting and researching than actually buying. For every 1 purchase, I probably add 15-20 items to wishlist and research for days. The buying decision is just too stressful online.",
+    "platform": "Reddit",
+    "themes": [
+      "comparison_gap",
+      "wishlist_ux",
+      "social_validation"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2025-12-28",
+    "user_segment": "research-heavy buyer"
+  },
+  {
+    "id": 33,
+    "text": "Myntra showed me 'price drop on wishlisted item' notification. Great! Went to buy. Size not available. Why notify me about price drop if my size isn't even in stock?",
+    "platform": "Play Store",
+    "themes": [
+      "price_timing",
+      "size_fit",
+      "wishlist_ux"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-04-28",
+    "user_segment": "deal hunter"
+  },
+  {
+    "id": 34,
+    "text": "Just cleared my wishlist of 150 items. Realized I had stuff from 2 years ago that's discontinued. Myntra should auto-remove items that are permanently out of stock.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-05-15",
+    "user_segment": "power browser"
+  },
+  {
+    "id": 35,
+    "text": "For expensive items (2000+), I always wishlist first and wait. Can't justify spending that much without being absolutely sure about fit and quality. Reviews with photos are the only thing that eventually convinces me.",
+    "platform": "Reddit",
+    "themes": [
+      "price_timing",
+      "social_validation",
+      "size_fit"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-02-05",
+    "user_segment": "cautious spender"
+  },
+  {
+    "id": 36,
+    "text": "I buy from Myntra only during sales. Between sales, I just browse and wishlist. My purchase cycle is roughly every 2-3 months during big sale events.",
+    "platform": "Reddit",
+    "themes": [
+      "price_timing",
+      "occasion_mismatch"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2025-10-10",
+    "user_segment": "deal hunter"
+  },
+  {
+    "id": 37,
+    "text": "The model wearing the dress is 5'9\". I'm 5'2\". The dress will look completely different on me. Why can't Myntra show how clothes look on different body types and heights?",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit",
+      "social_validation"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-01-20",
+    "user_segment": "fit-anxious buyer"
+  },
+  {
+    "id": 38,
+    "text": "Product review says material is thin and transparent. Product description says premium cotton. Who's lying? This inconsistency is why half my wishlist stays unbought.",
+    "platform": "YouTube",
+    "themes": [
+      "trust_authenticity",
+      "social_validation"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-03-18",
+    "user_segment": "skeptical buyer"
+  },
+  {
+    "id": 39,
+    "text": "My friend and I both ordered the same t-shirt in size L. Hers fits perfectly, mine is too tight. Same brand, same size, same product. Inconsistent quality across batches.",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-02-10",
+    "user_segment": "fit-anxious buyer"
+  },
+  {
+    "id": 40,
+    "text": "I wishlist items not to buy but to remember styles I like. When I visit a physical store, I use my Myntra wishlist as a reference to find similar styles to try on in person.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux",
+      "occasion_mismatch"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2025-09-25",
+    "user_segment": "omnichannel shopper"
+  },
+  {
+    "id": 41,
+    "text": "Delivery was great, product looks exactly like the photo. But I spent 3 weeks with it in my wishlist before buying because I couldn't figure out what bottoms to pair it with. Styling suggestions would help.",
+    "platform": "Play Store",
+    "themes": [
+      "social_validation",
+      "comparison_gap"
+    ],
+    "sentiment": "positive",
+    "rating": 4,
+    "date": "2026-04-10",
+    "user_segment": "styling-uncertain"
+  },
+  {
+    "id": 42,
+    "text": "Every time I add something to wishlist, Myntra sends 5 notifications about it. 'Almost sold out!', 'Back in stock!', 'Price drop!'. It's overwhelming and makes me ignore all notifications.",
+    "platform": "App Store",
+    "themes": [
+      "wishlist_ux"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-01-12",
+    "user_segment": "notification-fatigued"
+  },
+  {
+    "id": 43,
+    "text": "Bought a formal shirt for an interview next week. Arrived 3 days late. Had to buy from a local store. For anything time-sensitive, I don't trust Myntra delivery timelines.",
+    "platform": "PissedConsumer",
+    "themes": [
+      "occasion_mismatch",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-06-08",
+    "user_segment": "occasion shopper"
+  },
+  {
+    "id": 44,
+    "text": "I always check the review section for real customer photos. If a product has less than 50 reviews with photos, I won't buy it no matter how much I like the design. Too risky.",
+    "platform": "Reddit",
+    "themes": [
+      "social_validation",
+      "trust_authenticity"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-02-18",
+    "user_segment": "research-heavy buyer"
+  },
+  {
+    "id": 45,
+    "text": "My cart is my real wishlist. I add items to cart, see the total, get shocked, remove half, then save the rest to actual wishlist for later. The whole system is backwards.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux",
+      "price_timing"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2025-11-15",
+    "user_segment": "budget-conscious"
+  },
+  {
+    "id": 46,
+    "text": "Spent 2 hours comparing two almost identical black dresses on Myntra. One has 200 reviews avg 4.2, other has 50 reviews avg 4.5. Still can't decide. This is why my wishlist keeps growing.",
+    "platform": "Reddit",
+    "themes": [
+      "comparison_gap",
+      "wishlist_ux"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-03-25",
+    "user_segment": "decision-paralyzed"
+  },
+  {
+    "id": 47,
+    "text": "Why does the same product show different prices when I check from my husband's phone vs mine? Is Myntra doing personalized pricing? This feels shady and makes me not want to buy.",
+    "platform": "Reddit",
+    "themes": [
+      "price_timing",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-04-22",
+    "user_segment": "skeptical buyer"
+  },
+  {
+    "id": 48,
+    "text": "I ordered clothes for my kids. Size chart says age 5-6 should be size 5. My 5 year old couldn't even put it on. Kids sizing on Myntra is a complete mess.",
+    "platform": "Play Store",
+    "themes": [
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-05-28",
+    "user_segment": "parent shopper"
+  },
+  {
+    "id": 49,
+    "text": "The 'similar products' section on Myntra is useless. Shows me products that look nothing like what I'm viewing. If this was better, I could compare alternatives directly instead of manually wishlisting everything.",
+    "platform": "Reddit",
+    "themes": [
+      "comparison_gap"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-01-28",
+    "user_segment": "comparison shopper"
+  },
+  {
+    "id": 50,
+    "text": "I wishlisted a dress I loved. Checked after 2 weeks \u2014 price went UP by 800 rupees. Myntra definitely tracks wishlisted items and raises prices. Not buying on principle.",
+    "platform": "Reddit",
+    "themes": [
+      "price_timing",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-02-20",
+    "user_segment": "skeptical buyer"
+  },
+  {
+    "id": 51,
+    "text": "Honest Myntra haul review \u2014 out of 5 items, 3 looked different from photos, 1 had sizing issues, only 1 was exactly as expected. This is the reality of online fashion shopping in India.",
+    "platform": "YouTube",
+    "themes": [
+      "trust_authenticity",
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-03-05",
+    "user_segment": "content consumer"
+  },
+  {
+    "id": 52,
+    "text": "Good range of products and brands. But I only buy from brands I've already tried because size consistency is a huge problem. New brands stay in wishlist forever.",
+    "platform": "Play Store",
+    "themes": [
+      "size_fit",
+      "trust_authenticity"
+    ],
+    "sentiment": "mixed",
+    "rating": 3,
+    "date": "2025-12-15",
+    "user_segment": "brand-loyal buyer"
+  },
+  {
+    "id": 53,
+    "text": "The return window for most products is 14 days now. Used to be 30 days. With size uncertainty already being a problem, shorter return window makes buying even riskier.",
+    "platform": "Reddit",
+    "themes": [
+      "return_anxiety",
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-05-05",
+    "user_segment": "cautious spender"
+  },
+  {
+    "id": 54,
+    "text": "I share my wishlist with my girlfriend and we shop together. She helps me decide what looks good. Without her input I'd never buy anything because I can't judge how things will look on me.",
+    "platform": "Reddit",
+    "themes": [
+      "social_validation"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2025-10-30",
+    "user_segment": "social shopper"
+  },
+  {
+    "id": 55,
+    "text": "Myntra Studio is nice for inspiration but it doesn't connect to my wishlist. I see a look I like in Studio, then have to manually search for each item. These should be integrated.",
+    "platform": "App Store",
+    "themes": [
+      "social_validation",
+      "wishlist_ux",
+      "comparison_gap"
+    ],
+    "sentiment": "mixed",
+    "rating": 3,
+    "date": "2026-04-15",
+    "user_segment": "styling-uncertain"
+  },
+  {
+    "id": 56,
+    "text": "Been eyeing this designer saree for months on wishlist. It's 8000 rupees. Too expensive to risk online without seeing the fabric in person. Will wait for Myntra's offline experience store.",
+    "platform": "Reddit",
+    "themes": [
+      "price_timing",
+      "size_fit",
+      "trust_authenticity"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-01-18",
+    "user_segment": "cautious spender"
+  },
+  {
+    "id": 57,
+    "text": "Size recommendation says I should get XL based on my body measurements. But XL in most reviews is described as too baggy. The algorithm is clearly wrong.",
+    "platform": "Play Store",
+    "themes": [
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-06-12",
+    "user_segment": "fit-anxious buyer"
+  },
+  {
+    "id": 58,
+    "text": "I've started taking body measurements and comparing them to the actual garment measurements listed in reviews. This is ridiculous \u2014 I shouldn't need to do math to buy a t-shirt online.",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit",
+      "comparison_gap"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-02-08",
+    "user_segment": "research-heavy buyer"
+  },
+  {
+    "id": 59,
+    "text": "Myntra needs outfit bundles. When I like a look, I want to buy the whole outfit \u2014 top, bottom, accessories \u2014 not hunt for each piece individually. This is why stuff stays in wishlist.",
+    "platform": "Reddit",
+    "themes": [
+      "social_validation",
+      "comparison_gap",
+      "wishlist_ux"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2025-11-22",
+    "user_segment": "styling-uncertain"
+  },
+  {
+    "id": 60,
+    "text": "I have a separate browser folder for YouTube review videos of items in my Myntra wishlist. I basically create my own product research file before spending more than 1500 rupees.",
+    "platform": "Reddit",
+    "themes": [
+      "social_validation",
+      "trust_authenticity",
+      "price_timing"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-03-30",
+    "user_segment": "research-heavy buyer"
+  },
+  {
+    "id": 61,
+    "text": "Return pickup not arranged for 5 days. Called customer care 3 times. Each time told to wait 48 hours. Product doesn't fit but I'm stuck with it. Never risking a purchase that might not fit again.",
+    "platform": "PissedConsumer",
+    "themes": [
+      "return_anxiety"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-04-25",
+    "user_segment": "burned returner"
+  },
+  {
+    "id": 62,
+    "text": "The fabric composition is listed but meaningless to most people. What does '60% polyester 40% cotton' feel like? Give us texture descriptions, breathability ratings, something practical.",
+    "platform": "Reddit",
+    "themes": [
+      "trust_authenticity",
+      "social_validation"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-01-05",
+    "user_segment": "detail-oriented"
+  },
+  {
+    "id": 63,
+    "text": "My wife wishlists things to hint at what she wants for gifts. I check her wishlist before her birthday and anniversaries. This is the only reason we use wishlist feature.",
+    "platform": "Reddit",
+    "themes": [
+      "occasion_mismatch",
+      "social_validation"
+    ],
+    "sentiment": "positive",
+    "rating": null,
+    "date": "2025-12-25",
+    "user_segment": "gift shopper"
+  },
+  {
+    "id": 64,
+    "text": "Added 20 items during midnight browsing session. Next morning looked at the wishlist and wondered what I was thinking. Removed 15. The remaining 5 are still there 2 months later, unbought.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux",
+      "occasion_mismatch"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-05-12",
+    "user_segment": "casual browser"
+  },
+  {
+    "id": 65,
+    "text": "Rating and reviews system on Myntra seems manipulated. Saw a product with 4.5 stars but when I read actual text reviews, most people complained about quality and sizing. Stars are lies.",
+    "platform": "Reddit",
+    "themes": [
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-02-15",
+    "user_segment": "skeptical buyer"
+  },
+  {
+    "id": 66,
+    "text": "I check Myntra, Ajio, Flipkart, and Amazon for the same product. Whichever has best price + most reviews + easy return policy gets my purchase. Wishlist on Myntra doesn't mean I'll buy on Myntra.",
+    "platform": "Reddit",
+    "themes": [
+      "price_timing",
+      "comparison_gap",
+      "return_anxiety"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-03-20",
+    "user_segment": "cross-platform shopper"
+  },
+  {
+    "id": 67,
+    "text": "Great collection for men's formal wear but the fit descriptions are vague. What does 'regular fit' even mean? Regular for who? Show me chest, shoulder, and length measurements per size.",
+    "platform": "Play Store",
+    "themes": [
+      "size_fit"
+    ],
+    "sentiment": "mixed",
+    "rating": 3,
+    "date": "2026-04-08",
+    "user_segment": "detail-oriented"
+  },
+  {
+    "id": 68,
+    "text": "Wishlist items should show if they're available in my size without me having to click into each product. Would save so much time and I'd actually buy more.",
+    "platform": "App Store",
+    "themes": [
+      "wishlist_ux",
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": 3,
+    "date": "2026-01-22",
+    "user_segment": "power browser"
+  },
+  {
+    "id": 69,
+    "text": "Bought a jacket from wishlist. Loved it. Now I want to buy the pants from the same outfit shown on the model. But there's no 'shop the look' link. Had to search manually and couldn't find the exact pants.",
+    "platform": "Reddit",
+    "themes": [
+      "social_validation",
+      "comparison_gap"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-05-08",
+    "user_segment": "styling-uncertain"
+  },
+  {
+    "id": 70,
+    "text": "College student here. I wishlist expensive stuff as aspirational shopping. Can't afford most of it now but like saving designs I might want to buy when I start working.",
+    "platform": "Reddit",
+    "themes": [
+      "price_timing",
+      "occasion_mismatch",
+      "wishlist_ux"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2025-09-10",
+    "user_segment": "aspirational browser"
+  },
+  {
+    "id": 71,
+    "text": "The models are always size S or M. Never see how a dress looks on someone who's actually XL. I'm buying blind for my body type. This is the #1 reason items stay in my wishlist.",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit",
+      "social_validation"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-04-12",
+    "user_segment": "underserved segment"
+  },
+  {
+    "id": 72,
+    "text": "Out of curiosity I measured 5 'M size' t-shirts from different brands on Myntra. Chest measurements ranged from 38 to 42 inches. Size M literally means different things.",
+    "platform": "YouTube",
+    "themes": [
+      "size_fit",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-02-25",
+    "user_segment": "research-heavy buyer"
+  },
+  {
+    "id": 73,
+    "text": "Notification: 'Your wishlisted item is back in stock!' Click. Only XXS and XXXL available. Back in stock for whom exactly? Stop these misleading notifications.",
+    "platform": "Play Store",
+    "themes": [
+      "wishlist_ux",
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-06-05",
+    "user_segment": "notification-fatigued"
+  },
+  {
+    "id": 74,
+    "text": "I maintain a spreadsheet of my Myntra wishlist items with sizes, prices, and notes from reviews. Yes, I've become that person. Because Myntra's wishlist gives me zero tools to organize.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux",
+      "comparison_gap"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-03-15",
+    "user_segment": "organized shopper"
+  },
+  {
+    "id": 75,
+    "text": "For ethnic wear, I always consult my tailor before ordering. Send him the measurements from Myntra, he tells me if it will fit. This back-and-forth adds days to my buying decision.",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit",
+      "social_validation"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2025-11-08",
+    "user_segment": "cautious spender"
+  },
+  {
+    "id": 76,
+    "text": "Price dropped by 30% on my wishlisted item. Added to cart. Then saw 'no exchange or return on this item during sale'. Put it back in wishlist. Not worth the risk without return option.",
+    "platform": "Reddit",
+    "themes": [
+      "price_timing",
+      "return_anxiety",
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-01-15",
+    "user_segment": "cautious spender"
+  },
+  {
+    "id": 77,
+    "text": "I use Myntra like Instagram. Just scroll through new arrivals, heart things I like, never buy. The app design encourages browsing not buying. Like a dopamine hit from saving things.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux",
+      "occasion_mismatch"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-05-22",
+    "user_segment": "casual browser"
+  },
+  {
+    "id": 78,
+    "text": "Bought 5 items in one order from wishlist. Had to return 3. That's a 60% return rate. If Myntra solved the fit problem, their logistics costs would drop massively and I'd buy with more confidence.",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit",
+      "return_anxiety"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-04-20",
+    "user_segment": "fit-anxious buyer"
+  },
+  {
+    "id": 79,
+    "text": "The lack of detailed fabric videos is killing conversion. I need to see how the material drapes, stretches, how it catches light. Photos are not enough for premium clothing.",
+    "platform": "YouTube",
+    "themes": [
+      "social_validation",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-03-02",
+    "user_segment": "detail-oriented"
+  },
+  {
+    "id": 80,
+    "text": "Wishlisted a pair of heels for a party. Party was last Saturday. Still didn't buy because the reviews mentioned the sole is slippery and I couldn't find any review about arch support. Not worth injuring myself.",
+    "platform": "Reddit",
+    "themes": [
+      "social_validation",
+      "trust_authenticity",
+      "occasion_mismatch"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-06-15",
+    "user_segment": "cautious spender"
+  },
+  {
+    "id": 81,
+    "text": "My 60 year old father wants to buy clothes on Myntra but gives up because the sizing is too confusing. He needs a simple 'enter your measurements and we'll pick your size' tool.",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-02-03",
+    "user_segment": "family purchaser"
+  },
+  {
+    "id": 82,
+    "text": "Bought a dress that looked orange in photos but was actually pink in real life. Monitor/screen color calibration makes online fashion shopping a gamble.",
+    "platform": "Play Store",
+    "themes": [
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-05-18",
+    "user_segment": "fit-anxious buyer"
+  },
+  {
+    "id": 83,
+    "text": "I have items from 2023 in my Myntra wishlist. Some are discontinued. Would be nice if the app told me 'these items are no longer available' instead of showing errors when I click.",
+    "platform": "App Store",
+    "themes": [
+      "wishlist_ux"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-01-10",
+    "user_segment": "power browser"
+  },
+  {
+    "id": 84,
+    "text": "The experience of adding to wishlist on Myntra vs actually deciding to buy is like the experience of saving a recipe vs cooking dinner. The activation energy needed is completely different.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux",
+      "comparison_gap"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-04-30",
+    "user_segment": "casual browser"
+  },
+  {
+    "id": 85,
+    "text": "Recently Myntra has been removing return option on more and more products. How am I supposed to buy clothes online without return option? My wishlist is full of non-returnable items I'll never buy.",
+    "platform": "Play Store",
+    "themes": [
+      "return_anxiety"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-06-20",
+    "user_segment": "cautious spender"
+  },
+  {
+    "id": 86,
+    "text": "Love the Myntra Studio section for fashion inspiration. But when I try to recreate a look, I can't find the exact items and there's no clear connection between Studio content and product pages.",
+    "platform": "Reddit",
+    "themes": [
+      "social_validation",
+      "comparison_gap"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-03-10",
+    "user_segment": "styling-uncertain"
+  },
+  {
+    "id": 87,
+    "text": "I always read the 1-star and 2-star reviews first. If people are complaining about sizing or quality, that's a dealbreaker. Products with mostly 5-star generic reviews feel untrustworthy.",
+    "platform": "Reddit",
+    "themes": [
+      "trust_authenticity",
+      "social_validation"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2025-12-08",
+    "user_segment": "skeptical buyer"
+  },
+  {
+    "id": 88,
+    "text": "Waiting for the right occasion to buy from wishlist. Wedding season starts in November, I start buying in October. Rest of the year my wishlist just sits there collecting items.",
+    "platform": "Reddit",
+    "themes": [
+      "occasion_mismatch",
+      "price_timing"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-05-25",
+    "user_segment": "occasion shopper"
+  },
+  {
+    "id": 89,
+    "text": "If Myntra told me 'based on your past purchases in this brand, you are size M and it fit you well' \u2014 I would buy so much more confidently. They have this data!",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit",
+      "comparison_gap"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-02-28",
+    "user_segment": "brand-loyal buyer"
+  },
+  {
+    "id": 90,
+    "text": "Myntra customer care told me to try products in-store before buying online for the right size. Why would I use your platform then? Defeats the entire purpose.",
+    "platform": "Trustpilot",
+    "themes": [
+      "size_fit",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-04-05",
+    "user_segment": "frustrated buyer"
+  },
+  {
+    "id": 91,
+    "text": "I notice I wishlist more during boring meetings and late night. It's a coping mechanism for boredom. Not actual shopping intent. I'd guess 70% of my wishlists are impulse saves.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux",
+      "occasion_mismatch"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-06-10",
+    "user_segment": "casual browser"
+  },
+  {
+    "id": 92,
+    "text": "Exchanged jeans for a different size. The exchange came with a seal tag policy \u2014 if seal is broken, no further exchange. But you HAVE to break the seal to try on the jeans. Catch-22.",
+    "platform": "Reddit",
+    "themes": [
+      "return_anxiety",
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-01-28",
+    "user_segment": "burned returner"
+  },
+  {
+    "id": 93,
+    "text": "Found the perfect work blazer on Myntra. Showed it to 3 colleagues. Two said it looks good in photos but might be boxy in person. Now I'm unsure. It's been in wishlist for a month.",
+    "platform": "Reddit",
+    "themes": [
+      "social_validation",
+      "size_fit"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-05-02",
+    "user_segment": "social shopper"
+  },
+  {
+    "id": 94,
+    "text": "I have notifications turned off for Myntra because they spam too much. But this means I miss genuine price drops on wishlisted items. There's no granular notification control.",
+    "platform": "App Store",
+    "themes": [
+      "wishlist_ux",
+      "price_timing"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-03-28",
+    "user_segment": "notification-fatigued"
+  },
+  {
+    "id": 95,
+    "text": "The 'Trending Now' badge means nothing when I'm trying to decide between two similar products in my wishlist. Show me conversion rates, return rates, or size accuracy scores instead.",
+    "platform": "Reddit",
+    "themes": [
+      "comparison_gap",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-04-18",
+    "user_segment": "detail-oriented"
+  },
+  {
+    "id": 96,
+    "text": "For footwear especially, I need to know the exact sole thickness, weight, and whether it runs narrow or wide. Product descriptions say none of this. Every shoe purchase is a gamble.",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-02-12",
+    "user_segment": "detail-oriented"
+  },
+  {
+    "id": 97,
+    "text": "Downloaded PriceTracker just for Myntra. Tracked a pair of jeans for 4 months. Original price 2499, listed as 1799 'discounted'. Tracker showed it was ALWAYS 1799. Fake discounting.",
+    "platform": "Reddit",
+    "themes": [
+      "price_timing",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-06-18",
+    "user_segment": "skeptical buyer"
+  },
+  {
+    "id": 98,
+    "text": "My sister and I use Myntra wishlist to plan each other's birthday gifts. She shares her wishlist, I pick something from it. Actually a great use case but the sharing feature is basic.",
+    "platform": "Reddit",
+    "themes": [
+      "social_validation",
+      "occasion_mismatch"
+    ],
+    "sentiment": "positive",
+    "rating": null,
+    "date": "2025-12-20",
+    "user_segment": "gift shopper"
+  },
+  {
+    "id": 99,
+    "text": "Myntra should partner with fitness apps. If I input my body measurements in a health app, it should sync with Myntra to auto-recommend sizes. The data exists, just not connected.",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-05-15",
+    "user_segment": "tech-savvy shopper"
+  },
+  {
+    "id": 100,
+    "text": "The product description says 'the model is 5'10\" and wearing size M'. Cool. But what if I'm 5'3\"? This information is useless to 80% of Indian women.",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit",
+      "social_validation"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-03-22",
+    "user_segment": "underserved segment"
+  },
+  {
+    "id": 101,
+    "text": "Just opened my wishlist. 92 items. How did this happen. I need Marie Kondo for my Myntra wishlist. A declutter tool that helps me evaluate each item would be amazing.",
+    "platform": "Twitter",
+    "themes": [
+      "wishlist_ux"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-04-08",
+    "user_segment": "power browser"
+  },
+  {
+    "id": 102,
+    "text": "Hesitated for 3 weeks on a leather bag in my wishlist. Finally bought it. It's gorgeous and exactly as shown. But the 3 weeks of uncertainty could have been avoided with better product info and real customer photos.",
+    "platform": "Reddit",
+    "themes": [
+      "social_validation",
+      "trust_authenticity"
+    ],
+    "sentiment": "positive",
+    "rating": null,
+    "date": "2026-01-25",
+    "user_segment": "cautious spender"
+  },
+  {
+    "id": 103,
+    "text": "Myntra's return policy changes feel like they're punishing customers for their own sizing inconsistency. Fix the sizing problem and you won't need restrictive return policies.",
+    "platform": "Reddit",
+    "themes": [
+      "return_anxiety",
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-06-22",
+    "user_segment": "frustrated buyer"
+  },
+  {
+    "id": 104,
+    "text": "I keep track of sale dates. EORS in June/December, Big Fashion Festival in October. My wishlist is essentially a pre-loaded cart waiting for the right sale window.",
+    "platform": "Reddit",
+    "themes": [
+      "price_timing",
+      "occasion_mismatch"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-05-30",
+    "user_segment": "deal hunter"
+  },
+  {
+    "id": 105,
+    "text": "After 3 wrong size deliveries in a row, I now only buy items that have the 'True to Size' badge in reviews. If a product doesn't have enough size-related reviews, it stays in wishlist.",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit",
+      "social_validation",
+      "trust_authenticity"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-04-15",
+    "user_segment": "fit-anxious buyer"
+  },
+  {
+    "id": 106,
+    "text": "Need a feature that shows 'People who wishlisted this also bought...' \u2014 would help me see what actually converts from wishlist to purchase and give me confidence to buy.",
+    "platform": "Reddit",
+    "themes": [
+      "social_validation",
+      "comparison_gap"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-03-08",
+    "user_segment": "social shopper"
+  },
+  {
+    "id": 107,
+    "text": "Delivery in my area takes 7-10 days. If something doesn't fit and I need to return+reorder, that's 20-25 days minimum. For anything time-sensitive, I just go to the mall instead.",
+    "platform": "Play Store",
+    "themes": [
+      "occasion_mismatch",
+      "return_anxiety"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-02-18",
+    "user_segment": "tier-2 city"
+  },
+  {
+    "id": 108,
+    "text": "I wish there was an AR try-on for jewelry and sunglasses at least. These are items where I need to see how they look on MY face, not a model's face.",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit",
+      "social_validation"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-06-05",
+    "user_segment": "tech-savvy shopper"
+  },
+  {
+    "id": 109,
+    "text": "My Myntra insider loyalty points expire but my wishlist items don't have a 'use points' option directly. The whole loyalty program feels disconnected from the actual shopping journey.",
+    "platform": "Reddit",
+    "themes": [
+      "price_timing",
+      "wishlist_ux"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-01-30",
+    "user_segment": "loyalty member"
+  },
+  {
+    "id": 110,
+    "text": "I add items to wishlist from Instagram ads. Myntra retargets me with the same item I already wishlisted. Yes I know I want it, help me DECIDE, don't just remind me it exists.",
+    "platform": "Twitter",
+    "themes": [
+      "wishlist_ux",
+      "social_validation"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-05-08",
+    "user_segment": "ad-driven browser"
+  },
+  {
+    "id": 111,
+    "text": "Cotton, cotton blend, polyester, rayon \u2014 I have no idea what will be comfortable in Delhi summer. Fabric choice is a huge factor that product pages barely address. YouTube reviewers talk about this way more.",
+    "platform": "Reddit",
+    "themes": [
+      "trust_authenticity",
+      "social_validation"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-04-28",
+    "user_segment": "climate-conscious"
+  },
+  {
+    "id": 112,
+    "text": "Wishlisted items for a vacation wardrobe. Trip is in 2 months. Half the items are for beach, half for city exploring. Would love to tag them by trip segment within the wishlist.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux",
+      "occasion_mismatch"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-06-15",
+    "user_segment": "occasion shopper"
+  },
+  {
+    "id": 113,
+    "text": "First purchase on Myntra was amazing. Second was a disaster with wrong size. Third never got delivered. My trust is gone and my wishlist is full of things I want but won't buy from Myntra.",
+    "platform": "Trustpilot",
+    "themes": [
+      "trust_authenticity",
+      "size_fit",
+      "return_anxiety"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-03-18",
+    "user_segment": "churning user"
+  },
+  {
+    "id": 114,
+    "text": "The 'fit' filter on search is only slim/regular/loose. I need more. What's the shoulder width? Is the length crop or regular? Is the sleeve half or three-quarter? Vague descriptions keep items in wishlist.",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit",
+      "comparison_gap"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-02-22",
+    "user_segment": "detail-oriented"
+  },
+  {
+    "id": 115,
+    "text": "Pro tip: I check the brand's own website for accurate size charts, then order on Myntra for better price. Myntra's size charts are often outdated or wrong compared to the brand's official chart.",
+    "platform": "Reddit",
+    "themes": [
+      "size_fit",
+      "trust_authenticity",
+      "price_timing"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-05-20",
+    "user_segment": "cross-platform shopper"
+  },
+  {
+    "id": 116,
+    "text": "My wishlist to purchase ratio is probably 50:1. And I bet that's normal for most Myntra users. The platform is great for discovery but terrible for decision-making.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux",
+      "comparison_gap"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-04-02",
+    "user_segment": "power browser"
+  },
+  {
+    "id": 117,
+    "text": "The seal tag policy on returns is insane. How am I supposed to check if a shirt fits without removing the seal tag? It's like buying a car without test driving it.",
+    "platform": "Reddit",
+    "themes": [
+      "return_anxiety",
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-06-25",
+    "user_segment": "frustrated buyer"
+  },
+  {
+    "id": 118,
+    "text": "I wish Myntra would tell me 'this item has been in your wishlist for 30 days \u2014 here's what customers who bought it said about fit.' That would actually help me decide.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux",
+      "size_fit",
+      "social_validation"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-03-12",
+    "user_segment": "power browser"
+  },
+  {
+    "id": 119,
+    "text": "Honestly the best thing about Myntra is the browsing experience. Discovery is excellent. But the gap between 'I love this' and 'I trust this enough to buy' is massive.",
+    "platform": "Reddit",
+    "themes": [
+      "trust_authenticity",
+      "comparison_gap"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-05-10",
+    "user_segment": "research-heavy buyer"
+  },
+  {
+    "id": 120,
+    "text": "Every YouTube Myntra haul I watch, the creator says 'the quality is not what I expected'. This is now embedded in my brain. I hesitate on every wishlist item because of this.",
+    "platform": "YouTube",
+    "themes": [
+      "social_validation",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-04-22",
+    "user_segment": "content consumer"
+  },
+  {
+    "id": 121,
+    "text": "Myntra app is great for browsing but I have 40 items in wishlist and no way to sort them. At least give a price low to high option in wishlist. Such a basic feature missing.",
+    "platform": "Play Store",
+    "themes": [
+      "wishlist_ux"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-06-28",
+    "user_segment": "power browser"
+  },
+  {
+    "id": 122,
+    "text": "Ordered 2 sizes of the same dress to figure out which fits. Returning the other one cost me more hassle than the dress is worth. This shouldn't be how online shopping works.",
+    "platform": "Play Store",
+    "themes": [
+      "size_fit",
+      "return_anxiety"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-05-14",
+    "user_segment": "fit-anxious buyer"
+  },
+  {
+    "id": 123,
+    "text": "Buying ethnic wear online is a nightmare. Every brand has different measurements for the same size name. Until Myntra solves this, my lehanga wishlist will stay at 25 items.",
+    "platform": "Play Store",
+    "themes": [
+      "size_fit",
+      "occasion_mismatch"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-04-02",
+    "user_segment": "occasion shopper"
+  },
+  {
+    "id": 124,
+    "text": "Good app but I wish I could create separate wishlists. One for everyday wear, one for office, one for parties. Everything mixed together is chaos.",
+    "platform": "Play Store",
+    "themes": [
+      "wishlist_ux",
+      "occasion_mismatch"
+    ],
+    "sentiment": "mixed",
+    "rating": 3,
+    "date": "2026-03-20",
+    "user_segment": "organized shopper"
+  },
+  {
+    "id": 125,
+    "text": "App keeps sending notifications that wishlisted items are almost sold out. Checked 3 times. All still fully in stock. Stop the fake urgency please.",
+    "platform": "Play Store",
+    "themes": [
+      "wishlist_ux",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-07-05",
+    "user_segment": "skeptical buyer"
+  },
+  {
+    "id": 126,
+    "text": "Updated review: finally bought a wishlist item after 2 months. The blue shown in photos is actually grey in real life. Color accuracy on this app is terrible.",
+    "platform": "Play Store",
+    "themes": [
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-06-18",
+    "user_segment": "frustrated buyer"
+  },
+  {
+    "id": 127,
+    "text": "Sale prices are good but return policy during sale is non-existent for many items. I end up wishlisting sale items but not buying because what if size is wrong and I can't return?",
+    "platform": "Play Store",
+    "themes": [
+      "price_timing",
+      "return_anxiety",
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-01-08",
+    "user_segment": "deal hunter"
+  },
+  {
+    "id": 128,
+    "text": "Love the variety. Hate that I can't compare products. Wishlist should have a compare mode where I select 2-3 items and see specs, reviews, ratings side by side.",
+    "platform": "Play Store",
+    "themes": [
+      "comparison_gap",
+      "wishlist_ux"
+    ],
+    "sentiment": "mixed",
+    "rating": 3,
+    "date": "2026-02-25",
+    "user_segment": "comparison shopper"
+  },
+  {
+    "id": 129,
+    "text": "My wife refuses to buy from Myntra after getting the wrong product twice. She wishlists things but then says let's go to the store instead. Trust is broken.",
+    "platform": "Play Store",
+    "themes": [
+      "trust_authenticity",
+      "return_anxiety"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-08-10",
+    "user_segment": "churning user"
+  },
+  {
+    "id": 130,
+    "text": "Only buying during Big Fashion Festival now. Rest of the year my app usage is only browsing and wishlisting. Smart shoppers wait for the big sales.",
+    "platform": "Play Store",
+    "themes": [
+      "price_timing",
+      "occasion_mismatch"
+    ],
+    "sentiment": "neutral",
+    "rating": 4,
+    "date": "2026-07-22",
+    "user_segment": "deal hunter"
+  },
+  {
+    "id": 131,
+    "text": "Myntra haul August 2026. Ordered 7 items from my wishlist. 3 were not the same color as shown. 1 fabric felt completely different. Only 3 out of 7 were keepers. Returning the rest.",
+    "platform": "YouTube",
+    "themes": [
+      "trust_authenticity",
+      "size_fit",
+      "return_anxiety"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-08-05",
+    "user_segment": "content consumer"
+  },
+  {
+    "id": 132,
+    "text": "Reviewing the Myntra size chart accuracy. Measured 10 products against their listed measurements. Only 4 matched within 1 inch. The other 6 were way off. No wonder people don't trust it.",
+    "platform": "YouTube",
+    "themes": [
+      "size_fit",
+      "trust_authenticity"
+    ],
+    "sentiment": "negative",
+    "rating": null,
+    "date": "2026-06-12",
+    "user_segment": "research-heavy buyer"
+  },
+  {
+    "id": 133,
+    "text": "How I shop on Myntra: Step 1 wishlist 20 items. Step 2 watch YouTube reviews. Step 3 check Reddit for complaints. Step 4 buy 2 items. Step 5 return 1. Welcome to Indian online shopping.",
+    "platform": "YouTube",
+    "themes": [
+      "social_validation",
+      "comparison_gap",
+      "return_anxiety"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-05-20",
+    "user_segment": "research-heavy buyer"
+  },
+  {
+    "id": 134,
+    "text": "Styling tip that Myntra won't give you. The kurta shown with jeans in the product photo looks terrible with jeans in real life. I pair it with palazzos instead. Myntra needs styling context not just product photos.",
+    "platform": "YouTube",
+    "themes": [
+      "social_validation",
+      "comparison_gap"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-04-15",
+    "user_segment": "styling-uncertain"
+  },
+  {
+    "id": 135,
+    "text": "Comparing Myntra vs Ajio vs Nykaa Fashion for the same branded products. Price difference up to 30 percent for same item. I always cross-check before buying from my Myntra wishlist.",
+    "platform": "YouTube",
+    "themes": [
+      "price_timing",
+      "comparison_gap"
+    ],
+    "sentiment": "neutral",
+    "rating": null,
+    "date": "2026-07-08",
+    "user_segment": "cross-platform shopper"
+  },
+  {
+    "id": 136,
+    "text": "Every time I open my Myntra wishlist I feel overwhelmed. 87 items. Some from a year ago. Myntra should auto-archive items older than 3 months or let me bulk delete.",
+    "platform": "App Store",
+    "themes": [
+      "wishlist_ux"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-06-30",
+    "user_segment": "power browser"
+  },
+  {
+    "id": 137,
+    "text": "Why does the wishlist show items that are out of stock in my size? Waste of time clicking on each one to check. Show me only items available in my saved size preferences.",
+    "platform": "App Store",
+    "themes": [
+      "wishlist_ux",
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": 2,
+    "date": "2026-03-18",
+    "user_segment": "organized shopper"
+  },
+  {
+    "id": 138,
+    "text": "Customer care told me to check YouTube for real product reviews because their photos are aspirational. Even their own support admits the photos are not reliable.",
+    "platform": "Trustpilot",
+    "themes": [
+      "trust_authenticity",
+      "social_validation"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-08-12",
+    "user_segment": "frustrated buyer"
+  },
+  {
+    "id": 139,
+    "text": "Placed exchange for wrong size jeans. Second pair also wrong size. Customer care says sorry we can't do anything, quality check team decides. What a joke. 2800 rupees wasted.",
+    "platform": "PissedConsumer",
+    "themes": [
+      "return_anxiety",
+      "size_fit"
+    ],
+    "sentiment": "negative",
+    "rating": 1,
+    "date": "2026-07-28",
+    "user_segment": "burned returner"
+  },
+  {
+    "id": 140,
+    "text": "Honest opinion. Myntra is the best Indian fashion app for browsing and discovery. But the gap between discovery and confident purchase is where they lose most users. Fix fit, fix trust, fix the wishlist UX and conversion will skyrocket.",
+    "platform": "Reddit",
+    "themes": [
+      "wishlist_ux",
+      "size_fit",
+      "trust_authenticity"
+    ],
+    "sentiment": "mixed",
+    "rating": null,
+    "date": "2026-08-01",
+    "user_segment": "power browser"
+  }
+]

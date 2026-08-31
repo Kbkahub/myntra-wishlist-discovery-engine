@@ -2,7 +2,7 @@
 
 An AI-powered user research tool that analyzes public feedback at scale to discover **why Myntra users add products to their wishlist but don't purchase them**.
 
-Built for the PM Growth Case Study — Part 1: Discovery Engine.
+Discovery Engine.
 
 ## Live Demo
 

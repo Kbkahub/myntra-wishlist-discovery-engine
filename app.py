@@ -367,7 +367,7 @@ SURVEY_SYSTEM = (
 # ═══════════════════════════════════════
 if st.session_state["page"] == "dashboard":
     st.markdown("<h1 style='color:#282C3F;'>Discovery Dashboard</h1>", unsafe_allow_html=True)
-    st.caption("AI-powered analysis across 8 platforms + primary user survey.")
+    st.caption("AI-powered analysis across 7 platforms + primary user survey.")
 
     col1, col2, col3 = st.columns(3)
     col1.metric("Public Reviews", len(reviews))

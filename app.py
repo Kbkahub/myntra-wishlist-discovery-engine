@@ -195,6 +195,9 @@ st.markdown("""
     #MainMenu { display: none !important; }
     footer { display: none !important; }
     button[data-testid="stSidebarCollapseButton"] { display: none !important; }
+    [data-testid="stSidebarCollapse"] { display: none !important; }
+    [data-testid="collapsedControl"] { display: none !important; }
+    .stSidebar button[kind="header"] { display: none !important; }
     .block-container { padding-top: 1.5rem; font-family: 'Inter', sans-serif; }
 
     /* Force sidebar open */

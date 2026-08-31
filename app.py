@@ -374,6 +374,12 @@ if st.session_state["page"] == "dashboard":
     col2.metric("Survey Responses", len(survey))
     col3.metric("Opportunity Areas", len(OPPORTUNITY_AREAS))
 
+    st.subheader("Reviews by Platform")
+    cols = st.columns(len(set(r["platform"] for r in reviews)))
+    for i, (plat, cnt) in enumerate(Counter(r["platform"] for r in reviews).most_common()):
+        with cols[i]:
+            st.metric(plat, cnt)
+
     st.subheader("Opportunity Areas — Ranked by Impact")
     for key, opp in sorted(OPPORTUNITY_AREAS.items(), key=lambda x: x[1]["impact"], reverse=True):
         count = sum(1 for r in reviews if key in r["themes"])
@@ -386,12 +392,6 @@ if st.session_state["page"] == "dashboard":
             for p, c in Counter(r["platform"] for r in reviews if key in r["themes"]).most_common(3):
                 st.caption(f"{p}: {c}")
         st.divider()
-
-    st.subheader("Reviews by Platform")
-    cols = st.columns(len(set(r["platform"] for r in reviews)))
-    for i, (plat, cnt) in enumerate(Counter(r["platform"] for r in reviews).most_common()):
-        with cols[i]:
-            st.metric(plat, cnt)
 
     st.subheader("Sentiment Distribution")
     emojis = {"negative": "🔴", "mixed": "🟡", "neutral": "⚪", "positive": "🟢"}

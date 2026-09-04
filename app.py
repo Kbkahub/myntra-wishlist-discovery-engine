@@ -380,6 +380,170 @@ if st.session_state["page"] == "dashboard":
         with cols[i]:
             st.metric(plat, cnt)
 
+    # ── Affinity Mapping Section ──
+    st.subheader("Affinity Mapping")
+    with st.expander("View affinity mapping — 140 reviews → 179 codes → 7 themes"):
+        st.markdown(
+            "Bottom-up inductive thematic coding of 140 user reviews from 7 platforms. "
+            "Each review was read as a qualitative observation, assigned 1–3 inductive codes "
+            "(179 unique codes total), then codes were clustered into **7 emergent themes**."
+        )
+        st.markdown("**140** reviews coded · **179** unique codes · **7** themes emerged · 74 negative / 30 mixed / 30 neutral / 6 positive")
+
+        AFFINITY_THEMES = [
+            {
+                "name": "The Trust Deficit",
+                "subtitle": "Nothing on this app is what it claims to be",
+                "color": "#DC2626", "obs": 28,
+                "platforms": "Reddit: 14, YouTube: 6, Trustpilot: 5, Play Store: 3",
+                "description": "Photos lie. Descriptions lie. Star ratings lie. Discounts lie. Users have learned to trust nothing the platform shows them and have built a parallel information ecosystem — YouTube hauls, Reddit threads, third-party price trackers — to do what product pages should do: tell the truth.",
+                "codes": ["Photos vs reality (3)", "Color mismatch (4)", "Reviews feel fake (2)", "Fake discounting proven (1)", "YouTube as trust proxy (2)", "Trust destroyed by single experience (3)"],
+                "quotes": [
+                    ("Trustpilot", "Customer photos look NOTHING like listing. Dress was completely different shade of blue."),
+                    ("Reddit", "Product has 4.5 stars but text reviews all complain about quality and sizing. Stars are lies."),
+                    ("Reddit", "Tracked jeans for 4 months. 'Discounted' at 1799 was always 1799. Fake discounting."),
+                ],
+                "wishlist_link": "Trust deficit keeps items stuck in wishlist indefinitely. Users like items but don't trust what they'll receive.",
+                "workarounds": "YouTube haul videos, PriceTracker apps, brand websites for size charts, reading only 1-2 star reviews",
+            },
+            {
+                "name": "The Fit Lottery",
+                "subtitle": "Size M means 5 different things",
+                "color": "#EA580C", "obs": 25,
+                "platforms": "Reddit: 12, Play Store: 10, YouTube: 2",
+                "description": "Size is not a specification — it's a gamble. The same label means different things across brands, across batches, and even versus the platform's own size recommendations.",
+                "codes": ["Cross-brand inconsistency (4)", "Measurement mismatch (4)", "Model unrepresentative (3)", "Recommendation contradicts reviews (2)", "Vague fit descriptions (3)", "User workaround math (1)"],
+                "quotes": [
+                    ("YouTube", "Measured 5 'M size' tees from different brands. Chest ranged 38 to 42 inches."),
+                    ("Reddit", "Model is 5'9\". I'm 5'2\". Dress will look completely different on me."),
+                    ("Play Store", "Size recommendation says M, reviews say order L. Who do I trust? Ended up not buying."),
+                ],
+                "wishlist_link": "8 reviews explicitly say items 'stay in wishlist' because of fit uncertainty. #1 reason wishlisted items don't convert.",
+                "workarounds": "Only buying known brands, consulting tailors, ordering 2 sizes, measuring own garments",
+            },
+            {
+                "name": "The Wishlist Graveyard",
+                "subtitle": "200 items, no tools, no hope",
+                "color": "#7C3AED", "obs": 28,
+                "platforms": "Reddit: 12, App Store: 9, Play Store: 5",
+                "description": "The wishlist has no tools — no filters, no sorting, no categories, no comparison, no smart notifications, no auto-cleanup. Users who try to use it as a shopping tool are forced into external workarounds.",
+                "codes": ["No filters/sorting (3)", "No side-by-side comparison (2)", "Out-of-stock clogging (2)", "Notification waste (4)", "Manipulative notifications (2)", "Wishlist overwhelm (2)", "Wants decision help not reminders (1)"],
+                "quotes": [
+                    ("Play Store", "200+ items. Scroll endlessly. Half out of stock. No filters. Basic feature missing."),
+                    ("Reddit", "I maintain a spreadsheet of wishlist items with sizes, prices, and review notes. Because Myntra gives zero tools."),
+                    ("Reddit", "Wishlist to purchase ratio probably 50:1. Great for discovery, terrible for decision-making."),
+                ],
+                "wishlist_link": "This IS the wishlist problem. Every other theme feeds into this one — the graveyard accumulates items that other themes prevent from converting.",
+                "workarounds": "External spreadsheets, cart used as 'real wishlist', periodic mass-deletion, turning off all notifications",
+            },
+            {
+                "name": "The Return Trap",
+                "subtitle": "Buying online = accepting you might lose your money",
+                "color": "#B91C1C", "obs": 17,
+                "platforms": "Reddit: 7, PissedConsumer: 4, Play Store: 4",
+                "description": "Returns are designed to be punitive rather than supportive. Seal-tag catch-22s, shrinking return windows, and failed quality checks create a system where buying = accepting risk.",
+                "codes": ["Seal tag catch-22 (3)", "False quality check rejection (2)", "No return during sale (2)", "Return pickup delayed (2)", "Trust destroyed (2)", "Offline migration (1)"],
+                "quotes": [
+                    ("Trustpilot", "Returned shoes, never opened inner box. Failed quality check. Lost 3200rs. Never buying expensive items again."),
+                    ("Reddit", "How am I supposed to check if a shirt fits without removing the seal tag? Catch-22."),
+                    ("Reddit", "Recently removing return option on more products. How to buy clothes online without returns?"),
+                ],
+                "wishlist_link": "Return anxiety compounds fit uncertainty. Users keep items in wishlist because the cost of a wrong purchase is too high.",
+                "workarounds": "Avoiding non-returnable items, only buying during non-sale for return eligibility, sticking to low-cost items",
+            },
+            {
+                "name": "The Social Decision Gap",
+                "subtitle": "No one to ask, nowhere to check, no way to be sure",
+                "color": "#2563EB", "obs": 18,
+                "platforms": "Reddit: 11, YouTube: 5, Play Store: 1",
+                "description": "Fashion purchases are inherently social decisions but Myntra treats them as solo transactions. Users need styling context, peer validation, and real-life product views that the platform doesn't provide.",
+                "codes": ["External validation seeking (3)", "Styling uncertainty (3)", "Real-body representation needed (2)", "Fabric/material unknown (3)", "Community as product research (2)"],
+                "quotes": [
+                    ("Reddit", "Send wishlist screenshots to friends on WhatsApp. Takes 2-3 days. A share/poll feature inside Myntra would be amazing."),
+                    ("Reddit", "Always check YouTube reviews. Product photos lie. Need to see how fabric falls on a real person."),
+                    ("Play Store", "Spent 3 weeks with item in wishlist before buying because couldn't figure out what to pair it with."),
+                ],
+                "wishlist_link": "Users can't resolve styling/validation questions within the app, so items stay in wishlist while they consult external sources.",
+                "workarounds": "WhatsApp screenshots to friends, YouTube haul watching, Instagram outfit checks",
+            },
+            {
+                "name": "The Price Game",
+                "subtitle": "Everyone's waiting for a sale that may never come",
+                "color": "#059669", "obs": 14,
+                "platforms": "Reddit: 8, Play Store: 5, YouTube: 1",
+                "description": "Users have learned that Myntra's pricing is cyclical. The rational behavior is to wishlist at full price and wait for EORS/Big Fashion Festival. Third-party price trackers validate this strategy.",
+                "codes": ["Sale-cycle shopping (3)", "Price tracking via third-party (2)", "Wishlist as price watch (3)", "Price manipulation suspicion (2)", "Budget gating (2)"],
+                "quotes": [
+                    ("Reddit", "Added jacket at 2400. During EORS dropped to 1100. Bought immediately. Wishlist = price watch list."),
+                    ("Reddit", "Only buying during Big Fashion Festival. Rest of year = browsing and wishlisting."),
+                    ("Reddit", "Using PriceHistory app for Myntra. Why doesn't Myntra just show price history?"),
+                ],
+                "wishlist_link": "Large segment explicitly uses wishlists as price-watch lists. Items don't convert because users are rationally waiting for predictable sale cycles.",
+                "workarounds": "PriceHistory/PriceTracker apps, EORS calendar tracking, cross-platform price comparison",
+            },
+            {
+                "name": "The Idle Accumulator",
+                "subtitle": "I saved it because saving felt good, not because I want it",
+                "color": "#6B7280", "obs": 10,
+                "platforms": "Reddit: 10",
+                "description": "A significant portion of wishlist additions have zero purchase intent. Users save items for dopamine, inspiration, gift hints, or as bookmarks for offline shopping. The act of saving IS the experience.",
+                "codes": ["Boredom browsing (2)", "Aspirational saving (1)", "Gift registry usage (2)", "Offline reference usage (1)", "Mood board behavior (2)", "Night browsing regret (1)"],
+                "quotes": [
+                    ("Reddit", "I add things when bored browsing at night. No real intention to buy. Maybe 1 in 20 I actually purchase."),
+                    ("Reddit", "College student. Wishlist expensive stuff as aspirational shopping. Can't afford now but saving for when I start working."),
+                    ("Reddit", "Use Myntra like Instagram. Scroll, heart things, never buy. App encourages browsing not buying."),
+                ],
+                "wishlist_link": "These additions were never purchase intent. They're noise in the wishlist that buries the items that might have converted.",
+                "workarounds": "Periodic wishlist purges, separate mental categories for 'real' vs 'aspirational' saves",
+            },
+        ]
+
+        # Theme bar
+        total_obs = sum(t["obs"] for t in AFFINITY_THEMES)
+        bar_html = '<div style="display:flex;height:24px;border-radius:5px;overflow:hidden;gap:2px;margin:12px 0 8px;">'
+        for t in AFFINITY_THEMES:
+            pct = (t["obs"] / total_obs) * 100
+            bar_html += f'<div style="width:{pct}%;background:{t["color"]};display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#fff;min-width:24px;">{t["obs"]}</div>'
+        bar_html += '</div>'
+        legend_html = '<div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px;">'
+        for t in AFFINITY_THEMES:
+            legend_html += f'<span style="font-size:11px;color:#666;display:flex;align-items:center;gap:4px;"><span style="width:8px;height:8px;border-radius:2px;background:{t["color"]};display:inline-block;"></span>{t["name"]}</span>'
+        legend_html += '</div>'
+        st.markdown(bar_html + legend_html, unsafe_allow_html=True)
+
+        # Each theme as a sub-expander
+        for t in AFFINITY_THEMES:
+            with st.expander(f'{t["name"]} — "{t["subtitle"]}" ({t["obs"]} observations)'):
+                st.markdown(f'**Platforms:** {t["platforms"]}')
+                st.markdown(t["description"])
+
+                st.markdown("**Codes identified:**")
+                for c in t["codes"]:
+                    st.markdown(f"- {c}")
+
+                st.markdown("**Key quotes:**")
+                for plat, quote in t["quotes"]:
+                    st.markdown(f'> *"{quote}"*\n>\n> — {plat}')
+
+                st.markdown(f'**Link to wishlist conversion:** {t["wishlist_link"]}')
+                st.markdown(f'**User workarounds:** {t["workarounds"]}')
+
+        # Reinforcing loop
+        st.markdown("---")
+        st.markdown("**The Reinforcing Loop**")
+        st.markdown(
+            "These seven themes aren't independent — they form a reinforcing system that keeps items trapped in the wishlist. "
+            "The Fit Lottery creates uncertainty. The Trust Deficit means users can't resolve it from product pages. "
+            "The Return Trap means they can't resolve it by trying the product either. "
+            "The Social Decision Gap means they can't get help within the app. "
+            "The Wishlist Graveyard means the platform provides no tools to manage the accumulation."
+        )
+        st.markdown(
+            "**The core insight:** the wishlist doesn't have a conversion problem — it has a confidence problem "
+            "wrapped in a tools problem wrapped in a trust problem. Users want to buy. They add items because something "
+            "genuinely attracted them. But the platform gives them no way to move from attraction to confidence."
+        )
+
     st.subheader("Opportunity Areas — Ranked by Impact")
     for key, opp in sorted(OPPORTUNITY_AREAS.items(), key=lambda x: x[1]["impact"], reverse=True):
         count = sum(1 for r in reviews if key in r["themes"])
